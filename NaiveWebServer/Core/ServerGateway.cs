@@ -7,7 +7,7 @@ namespace NaiveWebServer
     public class Gateway
     {
         public Connection connection;
-        public void Enable( )                               
+        public void Add(Connection connection)                               
         {
             throw new NotImplementedException();
         }

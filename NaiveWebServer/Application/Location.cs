@@ -4,7 +4,9 @@ using System.Text;
 
 namespace NaiveWebServer
 {
-    public class HttpResponse
+    class Location
     {
+        public string urlPath;
+        public string directoryPath;
     }
 }
