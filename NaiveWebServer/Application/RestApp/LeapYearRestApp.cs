@@ -21,25 +21,16 @@ namespace NaiveWebServer
 
         public string GetLeapYear()
         {
-            if (this.IsALeapYearCheck(Int32.Parse(jsonBody["year"].ToString())))
-            {
-                Dictionary<string, string> myDictionary1 = new Dictionary<string, string>()
-                {
-                    {"message","It Is A Leap Year" }
-                };
-                return JsonConvert.SerializeObject(myDictionary1);
-
-            }
-
-            Dictionary<string, string> myDictionary2 = new Dictionary<string, string>()
-                {
-                    {"message","It Is Not A Leap Year" }
-                };
-            return JsonConvert.SerializeObject(myDictionary2);
+            return LeapYearCheck();
 
         }
 
         public string PostIsALeapYear()
+        {
+           return LeapYearCheck();
+        }
+
+        private string LeapYearCheck()
         {
             if (this.IsALeapYearCheck(Int32.Parse(jsonBody["year"].ToString())))
             {
@@ -56,9 +47,8 @@ namespace NaiveWebServer
                     {"message","It Is Not A Leap Year" }
                 };
             return JsonConvert.SerializeObject(myDictionary2);
-
-
         }
+
 
         public bool IsALeapYearCheck(int year)
         {

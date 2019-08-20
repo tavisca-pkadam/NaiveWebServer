@@ -19,8 +19,7 @@ namespace TestNaiveWebServer
         public void Adding_WebApp_to_WebApp_List()
         {
             var webApp = new WebApp("google", "/google", @"C:\Users\pakadam\Documents\server\C.gitignore", "static");
-            //webApp.location = "/google/";
-            //webApp.directory = @"C:\Users\pakadam\Documents\server\C.gitignore";
+            
             var result = webAppsHandler.Add(webApp);
             result.Should().BeTrue();
         }   

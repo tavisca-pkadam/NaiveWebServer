@@ -16,7 +16,7 @@ namespace TestNaiveWebServer
             connection = new Connection(new ServerConfiguration());
         }
         [Fact]
-        public void TryToStartListening()
+        public void trytostartlistening()
         {
             var result = connection.TryStartListening();
 
@@ -24,7 +24,7 @@ namespace TestNaiveWebServer
         }
 
         [Fact]
-        public void TryToStopLitening()
+        public void trytostoplitening()
         {
             var result = connection.TryStopListening();
             result.Should().BeTrue();
