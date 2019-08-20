@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.757
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NaiveWebServer", "NaiveWebServer\NaiveWebServer.csproj", "{9BA9EA72-8CDA-4F58-8B03-04492278268F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NaiveWebServer", "NaiveWebServer\NaiveWebServer.csproj", "{9BA9EA72-8CDA-4F58-8B03-04492278268F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestNaiveWebServer", "TestNaiveWebServer\TestNaiveWebServer.csproj", "{03A68552-2D3C-49DF-A03A-D1723E36CA1F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestNaiveWebServer", "TestNaiveWebServer\TestNaiveWebServer.csproj", "{03A68552-2D3C-49DF-A03A-D1723E36CA1F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NaiveWebServerConsole", "NaiveWebServerConsole\NaiveWebServerConsole.csproj", "{F6FF3049-0F2D-4C40-9C51-CDF7D9DD2559}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NaiveWebServerConsole", "NaiveWebServerConsole\NaiveWebServerConsole.csproj", "{F6FF3049-0F2D-4C40-9C51-CDF7D9DD2559}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

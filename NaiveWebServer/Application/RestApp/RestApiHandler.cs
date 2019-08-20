@@ -8,7 +8,6 @@ namespace NaiveWebServer
     public class RestApiHandler : IAppHandler
     {
         public RestApp restApp;
-        private string directory;
 
         public RestApiHandler(RestApp restApp)
         {
