@@ -10,7 +10,7 @@ using System.Diagnostics;
 
 namespace NaiveWebServer
 {
-    public abstract class IRestApp
+    public abstract class RestApp
     {
         public Dictionary<string, MethodInfo> listOfMethods;
         public JObject jsonBody;

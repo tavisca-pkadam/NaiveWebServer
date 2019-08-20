@@ -10,7 +10,7 @@ using System.Diagnostics;
 
 namespace NaiveWebServer
 {
-    public class LeapYearRestApp : IRestApp
+    public class LeapYearRestApp : RestApp
     {
         public LeapYearRestApp()
         {

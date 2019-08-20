@@ -7,10 +7,10 @@ namespace NaiveWebServer
 {
     public class RestApiHandler : IAppHandler
     {
-        public IRestApp restApp;
+        public RestApp restApp;
         private string directory;
 
-        public RestApiHandler(IRestApp restApp)
+        public RestApiHandler(RestApp restApp)
         {
             this.restApp = restApp;
         }

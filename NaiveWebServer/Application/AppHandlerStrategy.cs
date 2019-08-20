@@ -28,7 +28,7 @@ namespace NaiveWebServer
                 var testAssembly = Assembly.GetExecutingAssembly();
                 Type restAppType = testAssembly.GetType("NaiveWebServer."+directory);
 
-                IRestApp restApp = (IRestApp)Activator.CreateInstance(restAppType);
+                RestApp restApp = (RestApp)Activator.CreateInstance(restAppType);
 
                 appHandler = new RestApiHandler(restApp);
                 return appHandler;
