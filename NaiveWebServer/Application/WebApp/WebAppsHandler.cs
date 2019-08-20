@@ -10,7 +10,7 @@ namespace NaiveWebServer
 {
     public class WebAppsHandler
     {
-        private List<WebApp> webAppList;
+        readonly List<WebApp> webAppList;
 
         public WebAppsHandler()
         {
@@ -31,7 +31,7 @@ namespace NaiveWebServer
                     webAppList.ForEach(x => Debug.WriteLine(x.location));
             try
             {
-                webApp = webAppList.Where(x => x.location.StartsWith("/" + regex)).First();
+                webApp = webAppList.First(x => x.location.StartsWith("/" + regex));
             }
             catch(ArgumentNullException argumentException)
             {

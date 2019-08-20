@@ -50,7 +50,7 @@ namespace NaiveWebServer
             {
                 object[] mParam = new object[] { };
 
-                var method = this.listOfMethods.Where(x => x.Key == requestType + location).First();
+                var method = this.listOfMethods.First(x => x.Key == requestType + location);
                 Debug.WriteLine($"LeapYearRestApp -> MatchRequestTypeToFunction requestType+location{requestType + location} method{method.Key}");
 
                 return method.Value.Invoke(this, mParam).ToString();

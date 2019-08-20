@@ -8,7 +8,7 @@ using System.Linq;
 
 namespace NaiveWebServer
 {
-    public class AppHandlerStrategy
+    public static class AppHandlerStrategy
     {
 
 

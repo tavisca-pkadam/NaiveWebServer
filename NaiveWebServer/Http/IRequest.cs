@@ -4,7 +4,7 @@ using System.Text;
 
 namespace NaiveWebServer
 {
-    public class IRequest
+    public interface IRequest
     {
     }
 }

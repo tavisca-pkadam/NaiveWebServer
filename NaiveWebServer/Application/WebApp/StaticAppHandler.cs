@@ -7,8 +7,8 @@ namespace NaiveWebServer
 {
     class StaticAppHandler : IAppHandler
     {
-        private string directory;
-        private FileReader fileReader;
+        readonly string directory;
+        readonly FileReader fileReader;
 
         public StaticAppHandler(string directory)
         {

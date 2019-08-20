@@ -4,7 +4,7 @@ using System.Text;
 
 namespace NaiveWebServer
 {
-    public class IResponse
+    public interface IResponse
     {
     }
 }
