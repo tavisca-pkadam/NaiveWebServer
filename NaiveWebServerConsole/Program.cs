@@ -13,8 +13,7 @@ namespace NaiveWebServerConsole
             Console.WriteLine("Web Server Started");
 
             var  staticWebApp = new WebApp("google", "/google/", @"C:\Users\pakadam\Documents\server", "static");
-            //staticWebApp.location = "/google/";
-            //staticWebApp.directory = @"C:\Users\pakadam\Documents\server\C.gitignore";
+ 
             webServer.webAppsHandler.Add(staticWebApp);
 
             var restWebApp = new WebApp("leapyearrestapp", "/leapyearrestapp", @"LeapYearRestApp", "rest");
