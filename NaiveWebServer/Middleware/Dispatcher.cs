@@ -20,7 +20,9 @@ namespace NaiveWebServer
             {
                 SendInvalidWebAppResponse(httpContext);
             }
-            webApp.ForwardRequestToHandler(httpContext);
+            else{
+                webApp.ForwardRequestToHandler(httpContext);
+            }
         }
 
 
