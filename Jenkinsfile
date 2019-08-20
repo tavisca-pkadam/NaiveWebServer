@@ -23,6 +23,15 @@ pipeline {
             }
         }
 
+        stage('test') {
+            when {
+                expression { params.BUILD || params.PUBLISH || params.TEST}
+            }
+            steps {
+                bat '''dotnet test %SOLUTION_NAME%'''
+            }
+        }
+
         
         stage('sonar') {
              when {
