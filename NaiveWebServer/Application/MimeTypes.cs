@@ -202,7 +202,6 @@ namespace NaiveWebServer.Application
 
         public static string GetMIMEType(string fileName)
         {
-            //get file extension
             string extension = Path.GetExtension(fileName).ToLowerInvariant();
 
             if (extension.Length > 0 &&

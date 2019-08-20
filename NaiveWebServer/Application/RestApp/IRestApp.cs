@@ -27,7 +27,6 @@ namespace NaiveWebServer
 
         public string MatchRequestTypeToFunction(HttpContext httpContext)
         {
-            // send request data to rest function
 
             this.jsonBody = JObject.Parse(httpContext.request.body);
 

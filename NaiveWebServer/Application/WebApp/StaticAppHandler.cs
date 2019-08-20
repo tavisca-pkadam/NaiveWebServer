@@ -30,20 +30,6 @@ namespace NaiveWebServer
             httpContext.response.UpdateBody(responseBody);
             httpContext.SendResponseToClient();
 
-            // Send back a response.
-            // string content = httpContext.response.body;
-
-            // System.IO.StreamWriter writer = new System.IO.StreamWriter(httpContext.client.GetStream());
-            // writer.Write("HTTP/1.0 200 OK");
-            // writer.Write(Environment.NewLine);
-            // writer.Write("Content-Type:" + httpContext.response.contentType);
-            // writer.Write(Environment.NewLine);
-            // writer.Write("Content-Length: " + content.Length);
-            // writer.Write(Environment.NewLine);
-            // writer.Write(Environment.NewLine);
-            // writer.Write(content);
-            // writer.Flush();
-            // httpContext.client.Close();
         }
 
     }

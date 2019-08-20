@@ -26,9 +26,6 @@ namespace NaiveWebServer
             httpContext.response.UpdateBody(responseBody);
             httpContext.SendResponseToClient();
         }
-
-        
-
         
     }
 }

@@ -21,7 +21,6 @@ namespace NaiveWebServer
 
         public string GetLeapYear()
         {
-            // Return 10 LeapYears
             if (this.IsALeapYearCheck(Int32.Parse(jsonBody["year"].ToString())))
             {
                 Dictionary<string, string> myDictionary1 = new Dictionary<string, string>()
