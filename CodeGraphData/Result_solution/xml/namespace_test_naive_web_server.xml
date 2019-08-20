@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="namespace_test_naive_web_server" kind="namespace">
+    <compoundname>TestNaiveWebServer</compoundname>
+    <innerclass refid="class_test_naive_web_server_1_1_connection_fixture" prot="public">TestNaiveWebServer::ConnectionFixture</innerclass>
+    <innerclass refid="class_test_naive_web_server_1_1_server_gateway_fixture" prot="public">TestNaiveWebServer::ServerGatewayFixture</innerclass>
+    <innerclass refid="class_test_naive_web_server_1_1_unit_test1" prot="public">TestNaiveWebServer::UnitTest1</innerclass>
+    <innerclass refid="class_test_naive_web_server_1_1_web_apps_handler_fixture" prot="public">TestNaiveWebServer::WebAppsHandlerFixture</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/pakadam/source/repos/NaiveWebServer/TestNaiveWebServer/ConnectionFixture.cs" line="9" column="1"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,158 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_naive_web_server_1_1_connection" kind="class" prot="public">
+    <compoundname>NaiveWebServer::Connection</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_naive_web_server_1_1_connection_1ac3261732548e8aa5c4276634d9118b65" prot="public" static="no" mutable="no">
+        <type><ref refid="class_naive_web_server_1_1_server_configuration" kindref="compound">ServerConfiguration</ref></type>
+        <definition>ServerConfiguration NaiveWebServer.Connection._serverConfiguration</definition>
+        <argsstring></argsstring>
+        <name>_serverConfiguration</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/pakadam/source/repos/NaiveWebServer/NaiveWebServer/Core/Connection.cs" line="15" column="1" bodyfile="C:/Users/pakadam/source/repos/NaiveWebServer/NaiveWebServer/Core/Connection.cs" bodystart="15" bodyend="-1"/>
+        <referencedby refid="class_naive_web_server_1_1_connection_1a89e0f9c998072cc4ac9636bf75da9f0e" compoundref="_connection_8cs" startline="20" endline="26">NaiveWebServer.Connection.Connection</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_naive_web_server_1_1_connection_1a1c8ce7b4fdbb61c71e903c0539fecf3c" prot="public" static="no" mutable="no">
+        <type>TcpListener</type>
+        <definition>TcpListener NaiveWebServer.Connection._serverListener</definition>
+        <argsstring></argsstring>
+        <name>_serverListener</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/pakadam/source/repos/NaiveWebServer/NaiveWebServer/Core/Connection.cs" line="16" column="1" bodyfile="C:/Users/pakadam/source/repos/NaiveWebServer/NaiveWebServer/Core/Connection.cs" bodystart="16" bodyend="-1"/>
+        <referencedby refid="class_naive_web_server_1_1_connection_1a89e0f9c998072cc4ac9636bf75da9f0e" compoundref="_connection_8cs" startline="20" endline="26">NaiveWebServer.Connection.Connection</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_naive_web_server_1_1_connection_1a4f3e26ea042e38fc3e65d5852b016e83" prot="public" static="no" mutable="no">
+        <type>Thread</type>
+        <definition>Thread NaiveWebServer.Connection.listenerThread</definition>
+        <argsstring></argsstring>
+        <name>listenerThread</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/pakadam/source/repos/NaiveWebServer/NaiveWebServer/Core/Connection.cs" line="17" column="1" bodyfile="C:/Users/pakadam/source/repos/NaiveWebServer/NaiveWebServer/Core/Connection.cs" bodystart="17" bodyend="-1"/>
+        <referencedby refid="class_naive_web_server_1_1_connection_1adbd0dbb3b50f0fc82ba2c7342e48c05a" compoundref="_connection_8cs" startline="45" endline="58">NaiveWebServer.Connection.KeepAcceptingClients</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="event">
+      <memberdef kind="event" id="class_naive_web_server_1_1_connection_1a84741bf628dfc713e0961e681340f220" prot="public" static="no" add="no" remove="no" raise="no">
+        <type>Action&lt; TcpClient &gt;</type>
+        <definition>Action&lt;TcpClient&gt; NaiveWebServer.Connection.OnNewClientConnection</definition>
+        <argsstring></argsstring>
+        <name>OnNewClientConnection</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/pakadam/source/repos/NaiveWebServer/NaiveWebServer/Core/Connection.cs" line="18" column="1" bodyfile="C:/Users/pakadam/source/repos/NaiveWebServer/NaiveWebServer/Core/Connection.cs" bodystart="18" bodyend="-1"/>
+        <referencedby refid="class_naive_web_server_1_1_connection_1adbd0dbb3b50f0fc82ba2c7342e48c05a" compoundref="_connection_8cs" startline="45" endline="58">NaiveWebServer.Connection.KeepAcceptingClients</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_naive_web_server_1_1_connection_1a89e0f9c998072cc4ac9636bf75da9f0e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>NaiveWebServer.Connection.Connection</definition>
+        <argsstring>(ServerConfiguration serverConfiguration)</argsstring>
+        <name>Connection</name>
+        <param>
+          <type><ref refid="class_naive_web_server_1_1_server_configuration" kindref="compound">ServerConfiguration</ref></type>
+          <declname>serverConfiguration</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/pakadam/source/repos/NaiveWebServer/NaiveWebServer/Core/Connection.cs" line="20" column="1" bodyfile="C:/Users/pakadam/source/repos/NaiveWebServer/NaiveWebServer/Core/Connection.cs" bodystart="20" bodyend="26"/>
+        <references refid="class_naive_web_server_1_1_connection_1ac3261732548e8aa5c4276634d9118b65" compoundref="_connection_8cs" startline="15">NaiveWebServer.Connection._serverConfiguration</references>
+        <references refid="class_naive_web_server_1_1_connection_1a1c8ce7b4fdbb61c71e903c0539fecf3c" compoundref="_connection_8cs" startline="16">NaiveWebServer.Connection._serverListener</references>
+      </memberdef>
+      <memberdef kind="function" id="class_naive_web_server_1_1_connection_1a16c9cff503225bb107245e5f4bcd302b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool NaiveWebServer.Connection.TryStartListening</definition>
+        <argsstring>()</argsstring>
+        <name>TryStartListening</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/pakadam/source/repos/NaiveWebServer/NaiveWebServer/Core/Connection.cs" line="27" column="1" bodyfile="C:/Users/pakadam/source/repos/NaiveWebServer/NaiveWebServer/Core/Connection.cs" bodystart="27" bodyend="43"/>
+        <references refid="class_naive_web_server_1_1_connection_1adbd0dbb3b50f0fc82ba2c7342e48c05a" compoundref="_connection_8cs" startline="45" endline="58">NaiveWebServer.Connection.KeepAcceptingClients</references>
+      </memberdef>
+      <memberdef kind="function" id="class_naive_web_server_1_1_connection_1adbd0dbb3b50f0fc82ba2c7342e48c05a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void NaiveWebServer.Connection.KeepAcceptingClients</definition>
+        <argsstring>()</argsstring>
+        <name>KeepAcceptingClients</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/pakadam/source/repos/NaiveWebServer/NaiveWebServer/Core/Connection.cs" line="45" column="1" bodyfile="C:/Users/pakadam/source/repos/NaiveWebServer/NaiveWebServer/Core/Connection.cs" bodystart="45" bodyend="58"/>
+        <references refid="class_naive_web_server_1_1_connection_1a4f3e26ea042e38fc3e65d5852b016e83" compoundref="_connection_8cs" startline="17">NaiveWebServer.Connection.listenerThread</references>
+        <references refid="class_naive_web_server_1_1_connection_1a84741bf628dfc713e0961e681340f220" compoundref="_connection_8cs" startline="18">NaiveWebServer.Connection.OnNewClientConnection</references>
+        <referencedby refid="class_naive_web_server_1_1_connection_1a16c9cff503225bb107245e5f4bcd302b" compoundref="_connection_8cs" startline="27" endline="43">NaiveWebServer.Connection.TryStartListening</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_naive_web_server_1_1_connection_1a90891d4a73d11730a74c663eff7b0f8b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool NaiveWebServer.Connection.TryStopListening</definition>
+        <argsstring>()</argsstring>
+        <name>TryStopListening</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/pakadam/source/repos/NaiveWebServer/NaiveWebServer/Core/Connection.cs" line="60" column="1" bodyfile="C:/Users/pakadam/source/repos/NaiveWebServer/NaiveWebServer/Core/Connection.cs" bodystart="60" bodyend="74"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="3">
+        <label>NaiveWebServer.Connection</label>
+        <link refid="class_naive_web_server_1_1_connection"/>
+        <childnode refid="4" relation="usage">
+          <edgelabel>_serverConfiguration</edgelabel>
+        </childnode>
+      </node>
+      <node id="4">
+        <label>NaiveWebServer.ServerConfiguration</label>
+        <link refid="class_naive_web_server_1_1_server_configuration"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/pakadam/source/repos/NaiveWebServer/NaiveWebServer/Core/Connection.cs" line="14" column="1" bodyfile="C:/Users/pakadam/source/repos/NaiveWebServer/NaiveWebServer/Core/Connection.cs" bodystart="13" bodyend="75"/>
+    <listofallmembers>
+      <member refid="class_naive_web_server_1_1_connection_1ac3261732548e8aa5c4276634d9118b65" prot="public" virt="non-virtual"><scope>NaiveWebServer::Connection</scope><name>_serverConfiguration</name></member>
+      <member refid="class_naive_web_server_1_1_connection_1a1c8ce7b4fdbb61c71e903c0539fecf3c" prot="public" virt="non-virtual"><scope>NaiveWebServer::Connection</scope><name>_serverListener</name></member>
+      <member refid="class_naive_web_server_1_1_connection_1a89e0f9c998072cc4ac9636bf75da9f0e" prot="public" virt="non-virtual"><scope>NaiveWebServer::Connection</scope><name>Connection</name></member>
+      <member refid="class_naive_web_server_1_1_connection_1adbd0dbb3b50f0fc82ba2c7342e48c05a" prot="public" virt="non-virtual"><scope>NaiveWebServer::Connection</scope><name>KeepAcceptingClients</name></member>
+      <member refid="class_naive_web_server_1_1_connection_1a4f3e26ea042e38fc3e65d5852b016e83" prot="public" virt="non-virtual"><scope>NaiveWebServer::Connection</scope><name>listenerThread</name></member>
+      <member refid="class_naive_web_server_1_1_connection_1a84741bf628dfc713e0961e681340f220" prot="public" virt="non-virtual"><scope>NaiveWebServer::Connection</scope><name>OnNewClientConnection</name></member>
+      <member refid="class_naive_web_server_1_1_connection_1a16c9cff503225bb107245e5f4bcd302b" prot="public" virt="non-virtual"><scope>NaiveWebServer::Connection</scope><name>TryStartListening</name></member>
+      <member refid="class_naive_web_server_1_1_connection_1a90891d4a73d11730a74c663eff7b0f8b" prot="public" virt="non-virtual"><scope>NaiveWebServer::Connection</scope><name>TryStopListening</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

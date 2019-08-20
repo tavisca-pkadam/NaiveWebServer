@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_da6b7b1617473fe23b4da309fdd8f0ac" kind="dir">
+    <compoundname>C:/Users/pakadam/source/repos/NaiveWebServer/NaiveWebServer/Http</compoundname>
+    <innerfile refid="_extension_8cs">Extension.cs</innerfile>
+    <innerfile refid="_http_context_8cs">HttpContext.cs</innerfile>
+    <innerfile refid="_http_request_8cs">HttpRequest.cs</innerfile>
+    <innerfile refid="_http_response_8cs">HttpResponse.cs</innerfile>
+    <innerfile refid="_i_http_status_code_8cs">IHttpStatusCode.cs</innerfile>
+    <innerfile refid="_i_request_8cs">IRequest.cs</innerfile>
+    <innerfile refid="_i_response_8cs">IResponse.cs</innerfile>
+    <innerfile refid="_request_type_8cs">RequestType.cs</innerfile>
+    <innerfile refid="_sucess_status_code_8cs">SucessStatusCode.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/pakadam/source/repos/NaiveWebServer/NaiveWebServer/Http/"/>
+  </compounddef>
+</doxygen>

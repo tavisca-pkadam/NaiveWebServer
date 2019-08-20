@@ -1,0 +1,174 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_naive_web_server_1_1_static_app_handler" kind="class" prot="public">
+    <compoundname>NaiveWebServer::StaticAppHandler</compoundname>
+    <basecompoundref refid="interface_naive_web_server_1_1_i_app_handler" prot="public" virt="non-virtual">NaiveWebServer.IAppHandler</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_naive_web_server_1_1_static_app_handler_1a9bd92220d5c8eb2da17263420306529f" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string NaiveWebServer.StaticAppHandler.directory</definition>
+        <argsstring></argsstring>
+        <name>directory</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/pakadam/source/repos/NaiveWebServer/NaiveWebServer/Application/StaticAppHandler.cs" line="10" column="1" bodyfile="C:/Users/pakadam/source/repos/NaiveWebServer/NaiveWebServer/Application/StaticAppHandler.cs" bodystart="10" bodyend="-1"/>
+        <referencedby refid="class_naive_web_server_1_1_static_app_handler_1ac5d8e5d5cd827394310c54d9f615585d" compoundref="_static_app_handler_8cs" startline="13" endline="18">NaiveWebServer.StaticAppHandler.StaticAppHandler</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_naive_web_server_1_1_static_app_handler_1a9260c187aa519f25960047a3d60c5f66" prot="private" static="no" mutable="no">
+        <type><ref refid="class_naive_web_server_1_1_file_reader" kindref="compound">FileReader</ref></type>
+        <definition>FileReader NaiveWebServer.StaticAppHandler.fileReader</definition>
+        <argsstring></argsstring>
+        <name>fileReader</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/pakadam/source/repos/NaiveWebServer/NaiveWebServer/Application/StaticAppHandler.cs" line="11" column="1" bodyfile="C:/Users/pakadam/source/repos/NaiveWebServer/NaiveWebServer/Application/StaticAppHandler.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_naive_web_server_1_1_static_app_handler_1ac5d8e5d5cd827394310c54d9f615585d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>NaiveWebServer.StaticAppHandler.StaticAppHandler</definition>
+        <argsstring>(string directory)</argsstring>
+        <name>StaticAppHandler</name>
+        <param>
+          <type>string</type>
+          <declname>directory</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/pakadam/source/repos/NaiveWebServer/NaiveWebServer/Application/StaticAppHandler.cs" line="13" column="1" bodyfile="C:/Users/pakadam/source/repos/NaiveWebServer/NaiveWebServer/Application/StaticAppHandler.cs" bodystart="13" bodyend="18"/>
+        <references refid="class_naive_web_server_1_1_static_app_handler_1a9bd92220d5c8eb2da17263420306529f" compoundref="_static_app_handler_8cs" startline="10">NaiveWebServer.StaticAppHandler.directory</references>
+      </memberdef>
+      <memberdef kind="function" id="class_naive_web_server_1_1_static_app_handler_1a75def660c1d6b96519720445d2b8b576" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void NaiveWebServer.StaticAppHandler.ValidateLocation</definition>
+        <argsstring>(string location)</argsstring>
+        <name>ValidateLocation</name>
+        <param>
+          <type>string</type>
+          <declname>location</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/pakadam/source/repos/NaiveWebServer/NaiveWebServer/Application/StaticAppHandler.cs" line="19" column="1" bodyfile="C:/Users/pakadam/source/repos/NaiveWebServer/NaiveWebServer/Application/StaticAppHandler.cs" bodystart="19" bodyend="22"/>
+      </memberdef>
+      <memberdef kind="function" id="class_naive_web_server_1_1_static_app_handler_1ac4193ca5b11b5f9f29bea1ad257a939b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void NaiveWebServer.StaticAppHandler.HandleRequest</definition>
+        <argsstring>(HttpContext httpContext)</argsstring>
+        <name>HandleRequest</name>
+        <reimplements refid="interface_naive_web_server_1_1_i_app_handler_1aff155b2768b0f3807e88bb75d22357c4">HandleRequest</reimplements>
+        <param>
+          <type><ref refid="class_naive_web_server_1_1_http_context" kindref="compound">HttpContext</ref></type>
+          <declname>httpContext</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/pakadam/source/repos/NaiveWebServer/NaiveWebServer/Application/StaticAppHandler.cs" line="24" column="1" bodyfile="C:/Users/pakadam/source/repos/NaiveWebServer/NaiveWebServer/Application/StaticAppHandler.cs" bodystart="24" bodyend="31"/>
+        <references refid="class_naive_web_server_1_1_static_app_handler_1a981107d5a42605cbac57d95b529ebb50" compoundref="_static_app_handler_8cs" startline="33" endline="53">NaiveWebServer.StaticAppHandler.SendResponse</references>
+      </memberdef>
+      <memberdef kind="function" id="class_naive_web_server_1_1_static_app_handler_1a981107d5a42605cbac57d95b529ebb50" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void NaiveWebServer.StaticAppHandler.SendResponse</definition>
+        <argsstring>(string responseBody, HttpContext httpContext)</argsstring>
+        <name>SendResponse</name>
+        <reimplements refid="interface_naive_web_server_1_1_i_app_handler_1a30dc8c42713fabc8a14e5684de114447">SendResponse</reimplements>
+        <param>
+          <type>string</type>
+          <declname>responseBody</declname>
+        </param>
+        <param>
+          <type><ref refid="class_naive_web_server_1_1_http_context" kindref="compound">HttpContext</ref></type>
+          <declname>httpContext</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/pakadam/source/repos/NaiveWebServer/NaiveWebServer/Application/StaticAppHandler.cs" line="33" column="1" bodyfile="C:/Users/pakadam/source/repos/NaiveWebServer/NaiveWebServer/Application/StaticAppHandler.cs" bodystart="33" bodyend="53"/>
+        <referencedby refid="class_naive_web_server_1_1_static_app_handler_1ac4193ca5b11b5f9f29bea1ad257a939b" compoundref="_static_app_handler_8cs" startline="24" endline="31">NaiveWebServer.StaticAppHandler.HandleRequest</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_naive_web_server_1_1_static_app_handler_1a70d7b85875af46550758c781ff185a99" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void NaiveWebServer.StaticAppHandler.SendInvalidResponse</definition>
+        <argsstring>()</argsstring>
+        <name>SendInvalidResponse</name>
+        <reimplements refid="interface_naive_web_server_1_1_i_app_handler_1a357e1f9e55ccdcfe77170bab39cc720f">SendInvalidResponse</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/pakadam/source/repos/NaiveWebServer/NaiveWebServer/Application/StaticAppHandler.cs" line="55" column="1" bodyfile="C:/Users/pakadam/source/repos/NaiveWebServer/NaiveWebServer/Application/StaticAppHandler.cs" bodystart="55" bodyend="58"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="69">
+        <label>NaiveWebServer.StaticAppHandler</label>
+        <link refid="class_naive_web_server_1_1_static_app_handler"/>
+        <childnode refid="70" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="70">
+        <label>IAppHandler</label>
+        <link refid="interface_naive_web_server_1_1_i_app_handler"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="71">
+        <label>NaiveWebServer.StaticAppHandler</label>
+        <link refid="class_naive_web_server_1_1_static_app_handler"/>
+        <childnode refid="72" relation="public-inheritance">
+        </childnode>
+        <childnode refid="73" relation="usage">
+          <edgelabel>fileReader</edgelabel>
+        </childnode>
+      </node>
+      <node id="73">
+        <label>NaiveWebServer.FileReader</label>
+        <link refid="class_naive_web_server_1_1_file_reader"/>
+      </node>
+      <node id="72">
+        <label>IAppHandler</label>
+        <link refid="interface_naive_web_server_1_1_i_app_handler"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/pakadam/source/repos/NaiveWebServer/NaiveWebServer/Application/StaticAppHandler.cs" line="9" column="1" bodyfile="C:/Users/pakadam/source/repos/NaiveWebServer/NaiveWebServer/Application/StaticAppHandler.cs" bodystart="8" bodyend="59"/>
+    <listofallmembers>
+      <member refid="class_naive_web_server_1_1_static_app_handler_1a9bd92220d5c8eb2da17263420306529f" prot="private" virt="non-virtual"><scope>NaiveWebServer::StaticAppHandler</scope><name>directory</name></member>
+      <member refid="class_naive_web_server_1_1_static_app_handler_1a9260c187aa519f25960047a3d60c5f66" prot="private" virt="non-virtual"><scope>NaiveWebServer::StaticAppHandler</scope><name>fileReader</name></member>
+      <member refid="class_naive_web_server_1_1_static_app_handler_1ac4193ca5b11b5f9f29bea1ad257a939b" prot="public" virt="non-virtual"><scope>NaiveWebServer::StaticAppHandler</scope><name>HandleRequest</name></member>
+      <member refid="class_naive_web_server_1_1_static_app_handler_1a70d7b85875af46550758c781ff185a99" prot="public" virt="non-virtual"><scope>NaiveWebServer::StaticAppHandler</scope><name>SendInvalidResponse</name></member>
+      <member refid="class_naive_web_server_1_1_static_app_handler_1a981107d5a42605cbac57d95b529ebb50" prot="public" virt="non-virtual"><scope>NaiveWebServer::StaticAppHandler</scope><name>SendResponse</name></member>
+      <member refid="class_naive_web_server_1_1_static_app_handler_1ac5d8e5d5cd827394310c54d9f615585d" prot="public" virt="non-virtual"><scope>NaiveWebServer::StaticAppHandler</scope><name>StaticAppHandler</name></member>
+      <member refid="class_naive_web_server_1_1_static_app_handler_1a75def660c1d6b96519720445d2b8b576" prot="public" virt="non-virtual"><scope>NaiveWebServer::StaticAppHandler</scope><name>ValidateLocation</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

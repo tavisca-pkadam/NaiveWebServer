@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Diagnostics;
 
 namespace NaiveWebServer
 {
@@ -6,6 +7,6 @@ namespace NaiveWebServer
     {
         public string server_domain = "127.0.0.1";
         public int server_port = 8186;
-        
+
     }
 }

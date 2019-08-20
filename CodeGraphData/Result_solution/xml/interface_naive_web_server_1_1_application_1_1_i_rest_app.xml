@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="interface_naive_web_server_1_1_application_1_1_i_rest_app" kind="interface" prot="public">
+    <compoundname>NaiveWebServer::Application::IRestApp</compoundname>
+    <derivedcompoundref refid="class_naive_web_server_1_1_application_1_1_rest_app_1_1_leap_year_rest_app" prot="public" virt="non-virtual">NaiveWebServer.Application.RestApp.LeapYearRestApp</derivedcompoundref>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="41">
+        <label>NaiveWebServer.Application.IRestApp</label>
+        <link refid="interface_naive_web_server_1_1_application_1_1_i_rest_app"/>
+      </node>
+      <node id="42">
+        <label>NaiveWebServer.Application.RestApp.LeapYearRestApp</label>
+        <link refid="class_naive_web_server_1_1_application_1_1_rest_app_1_1_leap_year_rest_app"/>
+        <childnode refid="41" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="C:/Users/pakadam/source/repos/NaiveWebServer/NaiveWebServer/Application/RestApp/IRestApp.cs" line="4" column="1" bodyfile="C:/Users/pakadam/source/repos/NaiveWebServer/NaiveWebServer/Application/RestApp/IRestApp.cs" bodystart="3" bodyend="14"/>
+    <listofallmembers>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

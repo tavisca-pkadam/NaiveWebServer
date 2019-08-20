@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="interface_naive_web_server_1_1_i_rest_app" kind="interface" prot="public">
+    <compoundname>NaiveWebServer::IRestApp</compoundname>
+    <derivedcompoundref refid="class_naive_web_server_1_1_leap_year_rest_app" prot="public" virt="non-virtual">NaiveWebServer.LeapYearRestApp</derivedcompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="interface_naive_web_server_1_1_i_rest_app_1aad5fd79e1719b302542480541e940fd9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>string</type>
+        <definition>string NaiveWebServer.IRestApp.MatchRequestTypeToFunction</definition>
+        <argsstring>(HttpContext httpContext)</argsstring>
+        <name>MatchRequestTypeToFunction</name>
+        <reimplementedby refid="class_naive_web_server_1_1_leap_year_rest_app_1a24bf9540da25f7be24febe3eb6661860">MatchRequestTypeToFunction</reimplementedby>
+        <param>
+          <type><ref refid="class_naive_web_server_1_1_http_context" kindref="compound">HttpContext</ref></type>
+          <declname>httpContext</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/pakadam/source/repos/NaiveWebServer/NaiveWebServer/Application/RestApp/IRestApp.cs" line="7" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="42">
+        <label>NaiveWebServer.LeapYearRestApp</label>
+        <link refid="class_naive_web_server_1_1_leap_year_rest_app"/>
+        <childnode refid="41" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="41">
+        <label>NaiveWebServer.IRestApp</label>
+        <link refid="interface_naive_web_server_1_1_i_rest_app"/>
+      </node>
+    </inheritancegraph>
+    <location file="C:/Users/pakadam/source/repos/NaiveWebServer/NaiveWebServer/Application/RestApp/IRestApp.cs" line="6" column="1" bodyfile="C:/Users/pakadam/source/repos/NaiveWebServer/NaiveWebServer/Application/RestApp/IRestApp.cs" bodystart="5" bodyend="9"/>
+    <listofallmembers>
+      <member refid="interface_naive_web_server_1_1_i_rest_app_1aad5fd79e1719b302542480541e940fd9" prot="public" virt="non-virtual"><scope>NaiveWebServer::IRestApp</scope><name>MatchRequestTypeToFunction</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

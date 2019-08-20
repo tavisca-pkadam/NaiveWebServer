@@ -1,0 +1,193 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_naive_web_server_1_1_server_gateway" kind="class" prot="public">
+    <compoundname>NaiveWebServer::ServerGateway</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_naive_web_server_1_1_server_gateway_1a8a7ae239fbc1b5b44fc51b7ea4fc96f6" prot="public" static="no" mutable="no">
+        <type><ref refid="class_naive_web_server_1_1_connection" kindref="compound">Connection</ref></type>
+        <definition>Connection NaiveWebServer.ServerGateway.connection</definition>
+        <argsstring></argsstring>
+        <name>connection</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/pakadam/source/repos/NaiveWebServer/NaiveWebServer/Core/ServerGateway.cs" line="16" column="1" bodyfile="C:/Users/pakadam/source/repos/NaiveWebServer/NaiveWebServer/Core/ServerGateway.cs" bodystart="16" bodyend="-1"/>
+        <referencedby refid="class_naive_web_server_1_1_server_gateway_1ae87752f3db9e2e29b922a272ea8e88c7" compoundref="_server_gateway_8cs" startline="19" endline="28">NaiveWebServer.ServerGateway.ServerGateway</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_naive_web_server_1_1_server_gateway_1a43262f3bfab73d0aebd54c889ec5a5e2" prot="public" static="no" mutable="no">
+        <type><ref refid="class_naive_web_server_1_1_dispatcher" kindref="compound">Dispatcher</ref></type>
+        <definition>Dispatcher NaiveWebServer.ServerGateway.dispatcher</definition>
+        <argsstring></argsstring>
+        <name>dispatcher</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/pakadam/source/repos/NaiveWebServer/NaiveWebServer/Core/ServerGateway.cs" line="17" column="1" bodyfile="C:/Users/pakadam/source/repos/NaiveWebServer/NaiveWebServer/Core/ServerGateway.cs" bodystart="17" bodyend="-1"/>
+        <referencedby refid="class_naive_web_server_1_1_server_gateway_1ae87752f3db9e2e29b922a272ea8e88c7" compoundref="_server_gateway_8cs" startline="19" endline="28">NaiveWebServer.ServerGateway.ServerGateway</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_naive_web_server_1_1_server_gateway_1ae87752f3db9e2e29b922a272ea8e88c7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>NaiveWebServer.ServerGateway.ServerGateway</definition>
+        <argsstring>(Connection connection, Dispatcher dispatcher)</argsstring>
+        <name>ServerGateway</name>
+        <param>
+          <type><ref refid="class_naive_web_server_1_1_connection" kindref="compound">Connection</ref></type>
+          <declname>connection</declname>
+        </param>
+        <param>
+          <type><ref refid="class_naive_web_server_1_1_dispatcher" kindref="compound">Dispatcher</ref></type>
+          <declname>dispatcher</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/pakadam/source/repos/NaiveWebServer/NaiveWebServer/Core/ServerGateway.cs" line="19" column="1" bodyfile="C:/Users/pakadam/source/repos/NaiveWebServer/NaiveWebServer/Core/ServerGateway.cs" bodystart="19" bodyend="28"/>
+        <references refid="class_naive_web_server_1_1_server_gateway_1a8a7ae239fbc1b5b44fc51b7ea4fc96f6" compoundref="_server_gateway_8cs" startline="16">NaiveWebServer.ServerGateway.connection</references>
+        <references refid="class_naive_web_server_1_1_server_gateway_1a43262f3bfab73d0aebd54c889ec5a5e2" compoundref="_server_gateway_8cs" startline="17">NaiveWebServer.ServerGateway.dispatcher</references>
+        <references refid="class_naive_web_server_1_1_server_gateway_1a037403a5ff4bff942bb24ca45567a94b" compoundref="_server_gateway_8cs" startline="43" endline="49">NaiveWebServer.ServerGateway.HandleNewSocketConnection</references>
+      </memberdef>
+      <memberdef kind="function" id="class_naive_web_server_1_1_server_gateway_1ac1fdf4107b8f90a4e3af285e3d33d5bf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void NaiveWebServer.ServerGateway.Enable</definition>
+        <argsstring>()</argsstring>
+        <name>Enable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/pakadam/source/repos/NaiveWebServer/NaiveWebServer/Core/ServerGateway.cs" line="29" column="1" bodyfile="C:/Users/pakadam/source/repos/NaiveWebServer/NaiveWebServer/Core/ServerGateway.cs" bodystart="29" bodyend="34"/>
+      </memberdef>
+      <memberdef kind="function" id="class_naive_web_server_1_1_server_gateway_1aa0f35a2259cdc12359ae41bfcbd9c8db" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void NaiveWebServer.ServerGateway.Disable</definition>
+        <argsstring>()</argsstring>
+        <name>Disable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/pakadam/source/repos/NaiveWebServer/NaiveWebServer/Core/ServerGateway.cs" line="36" column="1" bodyfile="C:/Users/pakadam/source/repos/NaiveWebServer/NaiveWebServer/Core/ServerGateway.cs" bodystart="36" bodyend="41"/>
+      </memberdef>
+      <memberdef kind="function" id="class_naive_web_server_1_1_server_gateway_1a037403a5ff4bff942bb24ca45567a94b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void NaiveWebServer.ServerGateway.HandleNewSocketConnection</definition>
+        <argsstring>(TcpClient clientSocket)</argsstring>
+        <name>HandleNewSocketConnection</name>
+        <param>
+          <type>TcpClient</type>
+          <declname>clientSocket</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/pakadam/source/repos/NaiveWebServer/NaiveWebServer/Core/ServerGateway.cs" line="43" column="1" bodyfile="C:/Users/pakadam/source/repos/NaiveWebServer/NaiveWebServer/Core/ServerGateway.cs" bodystart="43" bodyend="49"/>
+        <references refid="class_naive_web_server_1_1_server_gateway_1a64445b6a8e31fde3a6cace57abb2a768" compoundref="_server_gateway_8cs" startline="58" endline="63">NaiveWebServer.ServerGateway.ForwardSocketToDispatcher</references>
+        <references refid="class_naive_web_server_1_1_server_gateway_1ae1d0c69d257a40f1f74970425f4e27be" compoundref="_server_gateway_8cs" startline="51" endline="56">NaiveWebServer.ServerGateway.NewSocketConnectionToHttpContext</references>
+        <referencedby refid="class_naive_web_server_1_1_server_gateway_1ae87752f3db9e2e29b922a272ea8e88c7" compoundref="_server_gateway_8cs" startline="19" endline="28">NaiveWebServer.ServerGateway.ServerGateway</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_naive_web_server_1_1_server_gateway_1ae1d0c69d257a40f1f74970425f4e27be" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_naive_web_server_1_1_http_context" kindref="compound">HttpContext</ref></type>
+        <definition>HttpContext NaiveWebServer.ServerGateway.NewSocketConnectionToHttpContext</definition>
+        <argsstring>(TcpClient clientSocket)</argsstring>
+        <name>NewSocketConnectionToHttpContext</name>
+        <param>
+          <type>TcpClient</type>
+          <declname>clientSocket</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/pakadam/source/repos/NaiveWebServer/NaiveWebServer/Core/ServerGateway.cs" line="51" column="1" bodyfile="C:/Users/pakadam/source/repos/NaiveWebServer/NaiveWebServer/Core/ServerGateway.cs" bodystart="51" bodyend="56"/>
+        <referencedby refid="class_naive_web_server_1_1_server_gateway_1a037403a5ff4bff942bb24ca45567a94b" compoundref="_server_gateway_8cs" startline="43" endline="49">NaiveWebServer.ServerGateway.HandleNewSocketConnection</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_naive_web_server_1_1_server_gateway_1a64445b6a8e31fde3a6cace57abb2a768" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void NaiveWebServer.ServerGateway.ForwardSocketToDispatcher</definition>
+        <argsstring>(HttpContext httpContext)</argsstring>
+        <name>ForwardSocketToDispatcher</name>
+        <param>
+          <type><ref refid="class_naive_web_server_1_1_http_context" kindref="compound">HttpContext</ref></type>
+          <declname>httpContext</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/pakadam/source/repos/NaiveWebServer/NaiveWebServer/Core/ServerGateway.cs" line="58" column="1" bodyfile="C:/Users/pakadam/source/repos/NaiveWebServer/NaiveWebServer/Core/ServerGateway.cs" bodystart="58" bodyend="63"/>
+        <referencedby refid="class_naive_web_server_1_1_server_gateway_1a037403a5ff4bff942bb24ca45567a94b" compoundref="_server_gateway_8cs" startline="43" endline="49">NaiveWebServer.ServerGateway.HandleNewSocketConnection</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="66">
+        <label>NaiveWebServer.WebAppsHandler</label>
+        <link refid="class_naive_web_server_1_1_web_apps_handler"/>
+      </node>
+      <node id="62">
+        <label>NaiveWebServer.ServerGateway</label>
+        <link refid="class_naive_web_server_1_1_server_gateway"/>
+        <childnode refid="63" relation="usage">
+          <edgelabel>connection</edgelabel>
+        </childnode>
+        <childnode refid="65" relation="usage">
+          <edgelabel>dispatcher</edgelabel>
+        </childnode>
+      </node>
+      <node id="65">
+        <label>NaiveWebServer.Dispatcher</label>
+        <link refid="class_naive_web_server_1_1_dispatcher"/>
+        <childnode refid="66" relation="usage">
+          <edgelabel>webAppsHandler</edgelabel>
+        </childnode>
+      </node>
+      <node id="63">
+        <label>NaiveWebServer.Connection</label>
+        <link refid="class_naive_web_server_1_1_connection"/>
+        <childnode refid="64" relation="usage">
+          <edgelabel>_serverConfiguration</edgelabel>
+        </childnode>
+      </node>
+      <node id="64">
+        <label>NaiveWebServer.ServerConfiguration</label>
+        <link refid="class_naive_web_server_1_1_server_configuration"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/pakadam/source/repos/NaiveWebServer/NaiveWebServer/Core/ServerGateway.cs" line="15" column="1" bodyfile="C:/Users/pakadam/source/repos/NaiveWebServer/NaiveWebServer/Core/ServerGateway.cs" bodystart="14" bodyend="64"/>
+    <listofallmembers>
+      <member refid="class_naive_web_server_1_1_server_gateway_1a8a7ae239fbc1b5b44fc51b7ea4fc96f6" prot="public" virt="non-virtual"><scope>NaiveWebServer::ServerGateway</scope><name>connection</name></member>
+      <member refid="class_naive_web_server_1_1_server_gateway_1aa0f35a2259cdc12359ae41bfcbd9c8db" prot="public" virt="non-virtual"><scope>NaiveWebServer::ServerGateway</scope><name>Disable</name></member>
+      <member refid="class_naive_web_server_1_1_server_gateway_1a43262f3bfab73d0aebd54c889ec5a5e2" prot="public" virt="non-virtual"><scope>NaiveWebServer::ServerGateway</scope><name>dispatcher</name></member>
+      <member refid="class_naive_web_server_1_1_server_gateway_1ac1fdf4107b8f90a4e3af285e3d33d5bf" prot="public" virt="non-virtual"><scope>NaiveWebServer::ServerGateway</scope><name>Enable</name></member>
+      <member refid="class_naive_web_server_1_1_server_gateway_1a64445b6a8e31fde3a6cace57abb2a768" prot="public" virt="non-virtual"><scope>NaiveWebServer::ServerGateway</scope><name>ForwardSocketToDispatcher</name></member>
+      <member refid="class_naive_web_server_1_1_server_gateway_1a037403a5ff4bff942bb24ca45567a94b" prot="public" virt="non-virtual"><scope>NaiveWebServer::ServerGateway</scope><name>HandleNewSocketConnection</name></member>
+      <member refid="class_naive_web_server_1_1_server_gateway_1ae1d0c69d257a40f1f74970425f4e27be" prot="public" virt="non-virtual"><scope>NaiveWebServer::ServerGateway</scope><name>NewSocketConnectionToHttpContext</name></member>
+      <member refid="class_naive_web_server_1_1_server_gateway_1ae87752f3db9e2e29b922a272ea8e88c7" prot="public" virt="non-virtual"><scope>NaiveWebServer::ServerGateway</scope><name>ServerGateway</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

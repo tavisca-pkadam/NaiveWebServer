@@ -1,0 +1,123 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_naive_web_server_1_1_leap_year_rest_app" kind="class" prot="public">
+    <compoundname>NaiveWebServer::LeapYearRestApp</compoundname>
+    <basecompoundref refid="interface_naive_web_server_1_1_i_rest_app" prot="public" virt="non-virtual">NaiveWebServer.IRestApp</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_naive_web_server_1_1_leap_year_rest_app_1a68155062ad5cf8f5bed842d13efd106f" prot="private" static="no" mutable="no">
+        <type>Dictionary&lt; string, MethodInfo &gt;</type>
+        <definition>Dictionary&lt;string, MethodInfo&gt; NaiveWebServer.LeapYearRestApp.listOfMethods</definition>
+        <argsstring></argsstring>
+        <name>listOfMethods</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/pakadam/source/repos/NaiveWebServer/NaiveWebServer/Application/RestApp/LeapYearRestApp.cs" line="15" column="1" bodyfile="C:/Users/pakadam/source/repos/NaiveWebServer/NaiveWebServer/Application/RestApp/LeapYearRestApp.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_naive_web_server_1_1_leap_year_rest_app_1a3e1a7f0997027e3d559cd997b97462e8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>NaiveWebServer.LeapYearRestApp.LeapYearRestApp</definition>
+        <argsstring>()</argsstring>
+        <name>LeapYearRestApp</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/pakadam/source/repos/NaiveWebServer/NaiveWebServer/Application/RestApp/LeapYearRestApp.cs" line="18" column="1" bodyfile="C:/Users/pakadam/source/repos/NaiveWebServer/NaiveWebServer/Application/RestApp/LeapYearRestApp.cs" bodystart="18" bodyend="30"/>
+      </memberdef>
+      <memberdef kind="function" id="class_naive_web_server_1_1_leap_year_rest_app_1a24bf9540da25f7be24febe3eb6661860" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string NaiveWebServer.LeapYearRestApp.MatchRequestTypeToFunction</definition>
+        <argsstring>(HttpContext httpContext)</argsstring>
+        <name>MatchRequestTypeToFunction</name>
+        <reimplements refid="interface_naive_web_server_1_1_i_rest_app_1aad5fd79e1719b302542480541e940fd9">MatchRequestTypeToFunction</reimplements>
+        <param>
+          <type><ref refid="class_naive_web_server_1_1_http_context" kindref="compound">HttpContext</ref></type>
+          <declname>httpContext</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/pakadam/source/repos/NaiveWebServer/NaiveWebServer/Application/RestApp/LeapYearRestApp.cs" line="32" column="1" bodyfile="C:/Users/pakadam/source/repos/NaiveWebServer/NaiveWebServer/Application/RestApp/LeapYearRestApp.cs" bodystart="32" bodyend="68"/>
+        <references refid="class_naive_web_server_1_1_http_request_1a860c8a6ac972c6113598bb071ad73d71" compoundref="_http_request_8cs" startline="14">NaiveWebServer.HttpRequest.methodType</references>
+        <references refid="class_naive_web_server_1_1_http_context_1aea28e4758b080ac285137837a99ca7d0" compoundref="_http_context_8cs" startline="18">NaiveWebServer.HttpContext.request</references>
+      </memberdef>
+      <memberdef kind="function" id="class_naive_web_server_1_1_leap_year_rest_app_1a7882a63d45b0ac0c16417f955fb51a58" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string NaiveWebServer.LeapYearRestApp.GetLeapYear</definition>
+        <argsstring>()</argsstring>
+        <name>GetLeapYear</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/pakadam/source/repos/NaiveWebServer/NaiveWebServer/Application/RestApp/LeapYearRestApp.cs" line="81" column="1" bodyfile="C:/Users/pakadam/source/repos/NaiveWebServer/NaiveWebServer/Application/RestApp/LeapYearRestApp.cs" bodystart="81" bodyend="91"/>
+      </memberdef>
+      <memberdef kind="function" id="class_naive_web_server_1_1_leap_year_rest_app_1a645f34574f321691fde4f396c8c2abf3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string NaiveWebServer.LeapYearRestApp.PostIsALeapYear</definition>
+        <argsstring>(int year)</argsstring>
+        <name>PostIsALeapYear</name>
+        <param>
+          <type>int</type>
+          <declname>year</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/pakadam/source/repos/NaiveWebServer/NaiveWebServer/Application/RestApp/LeapYearRestApp.cs" line="93" column="1" bodyfile="C:/Users/pakadam/source/repos/NaiveWebServer/NaiveWebServer/Application/RestApp/LeapYearRestApp.cs" bodystart="93" bodyend="102"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="45">
+        <label>IRestApp</label>
+        <link refid="interface_naive_web_server_1_1_i_rest_app"/>
+      </node>
+      <node id="44">
+        <label>NaiveWebServer.LeapYearRestApp</label>
+        <link refid="class_naive_web_server_1_1_leap_year_rest_app"/>
+        <childnode refid="45" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="47">
+        <label>IRestApp</label>
+        <link refid="interface_naive_web_server_1_1_i_rest_app"/>
+      </node>
+      <node id="46">
+        <label>NaiveWebServer.LeapYearRestApp</label>
+        <link refid="class_naive_web_server_1_1_leap_year_rest_app"/>
+        <childnode refid="47" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/pakadam/source/repos/NaiveWebServer/NaiveWebServer/Application/RestApp/LeapYearRestApp.cs" line="14" column="1" bodyfile="C:/Users/pakadam/source/repos/NaiveWebServer/NaiveWebServer/Application/RestApp/LeapYearRestApp.cs" bodystart="13" bodyend="103"/>
+    <listofallmembers>
+      <member refid="class_naive_web_server_1_1_leap_year_rest_app_1a7882a63d45b0ac0c16417f955fb51a58" prot="public" virt="non-virtual"><scope>NaiveWebServer::LeapYearRestApp</scope><name>GetLeapYear</name></member>
+      <member refid="class_naive_web_server_1_1_leap_year_rest_app_1a3e1a7f0997027e3d559cd997b97462e8" prot="public" virt="non-virtual"><scope>NaiveWebServer::LeapYearRestApp</scope><name>LeapYearRestApp</name></member>
+      <member refid="class_naive_web_server_1_1_leap_year_rest_app_1a68155062ad5cf8f5bed842d13efd106f" prot="private" virt="non-virtual"><scope>NaiveWebServer::LeapYearRestApp</scope><name>listOfMethods</name></member>
+      <member refid="class_naive_web_server_1_1_leap_year_rest_app_1a24bf9540da25f7be24febe3eb6661860" prot="public" virt="non-virtual"><scope>NaiveWebServer::LeapYearRestApp</scope><name>MatchRequestTypeToFunction</name></member>
+      <member refid="class_naive_web_server_1_1_leap_year_rest_app_1a645f34574f321691fde4f396c8c2abf3" prot="public" virt="non-virtual"><scope>NaiveWebServer::LeapYearRestApp</scope><name>PostIsALeapYear</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_d44d12fa728671a62f5921314973bc03" kind="dir">
+    <compoundname>C:/Users/pakadam/source/repos/NaiveWebServer/NaiveWebServer/Application</compoundname>
+    <innerdir refid="dir_95bc6f7509955015c8fe2147fd6bbee8">C:/Users/pakadam/source/repos/NaiveWebServer/NaiveWebServer/Application/RestApp</innerdir>
+    <innerfile refid="_app_handler_strategy_8cs">AppHandlerStrategy.cs</innerfile>
+    <innerfile refid="_file_reader_8cs">FileReader.cs</innerfile>
+    <innerfile refid="_i_app_handler_8cs">IAppHandler.cs</innerfile>
+    <innerfile refid="_location_8cs">Location.cs</innerfile>
+    <innerfile refid="_mime_types_8cs">MimeTypes.cs</innerfile>
+    <innerfile refid="_rest_api_handler_8cs">RestApiHandler.cs</innerfile>
+    <innerfile refid="_static_app_handler_8cs">StaticAppHandler.cs</innerfile>
+    <innerfile refid="_web_app_8cs">WebApp.cs</innerfile>
+    <innerfile refid="_web_apps_handler_8cs">WebAppsHandler.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/pakadam/source/repos/NaiveWebServer/NaiveWebServer/Application/"/>
+  </compounddef>
+</doxygen>

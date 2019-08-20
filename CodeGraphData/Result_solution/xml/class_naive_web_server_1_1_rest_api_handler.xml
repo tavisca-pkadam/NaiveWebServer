@@ -1,0 +1,172 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_naive_web_server_1_1_rest_api_handler" kind="class" prot="public">
+    <compoundname>NaiveWebServer::RestApiHandler</compoundname>
+    <basecompoundref refid="interface_naive_web_server_1_1_i_app_handler" prot="public" virt="non-virtual">NaiveWebServer.IAppHandler</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_naive_web_server_1_1_rest_api_handler_1aa9ab7507c82c5898b5c9f8ae264eca74" prot="public" static="no" mutable="no">
+        <type><ref refid="interface_naive_web_server_1_1_i_rest_app" kindref="compound">IRestApp</ref></type>
+        <definition>IRestApp NaiveWebServer.RestApiHandler.restApp</definition>
+        <argsstring></argsstring>
+        <name>restApp</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/pakadam/source/repos/NaiveWebServer/NaiveWebServer/Application/RestApiHandler.cs" line="10" column="1" bodyfile="C:/Users/pakadam/source/repos/NaiveWebServer/NaiveWebServer/Application/RestApiHandler.cs" bodystart="10" bodyend="-1"/>
+        <referencedby refid="class_naive_web_server_1_1_rest_api_handler_1a97f6544545986d346d7dc8649ef87641" compoundref="_rest_api_handler_8cs" startline="13" endline="16">NaiveWebServer.RestApiHandler.RestApiHandler</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_naive_web_server_1_1_rest_api_handler_1aae59e39c5f5a655d80e81dd9b0af6bb6" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string NaiveWebServer.RestApiHandler.directory</definition>
+        <argsstring></argsstring>
+        <name>directory</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/pakadam/source/repos/NaiveWebServer/NaiveWebServer/Application/RestApiHandler.cs" line="11" column="1" bodyfile="C:/Users/pakadam/source/repos/NaiveWebServer/NaiveWebServer/Application/RestApiHandler.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_naive_web_server_1_1_rest_api_handler_1a97f6544545986d346d7dc8649ef87641" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>NaiveWebServer.RestApiHandler.RestApiHandler</definition>
+        <argsstring>(IRestApp restApp)</argsstring>
+        <name>RestApiHandler</name>
+        <param>
+          <type><ref refid="interface_naive_web_server_1_1_i_rest_app" kindref="compound">IRestApp</ref></type>
+          <declname>restApp</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/pakadam/source/repos/NaiveWebServer/NaiveWebServer/Application/RestApiHandler.cs" line="13" column="1" bodyfile="C:/Users/pakadam/source/repos/NaiveWebServer/NaiveWebServer/Application/RestApiHandler.cs" bodystart="13" bodyend="16"/>
+        <references refid="class_naive_web_server_1_1_rest_api_handler_1aa9ab7507c82c5898b5c9f8ae264eca74" compoundref="_rest_api_handler_8cs" startline="10">NaiveWebServer.RestApiHandler.restApp</references>
+      </memberdef>
+      <memberdef kind="function" id="class_naive_web_server_1_1_rest_api_handler_1a4c2ea4eee0c53762794a44a61bd8b7ad" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void NaiveWebServer.RestApiHandler.HandleRequest</definition>
+        <argsstring>(HttpContext httpContext)</argsstring>
+        <name>HandleRequest</name>
+        <reimplements refid="interface_naive_web_server_1_1_i_app_handler_1aff155b2768b0f3807e88bb75d22357c4">HandleRequest</reimplements>
+        <param>
+          <type><ref refid="class_naive_web_server_1_1_http_context" kindref="compound">HttpContext</ref></type>
+          <declname>httpContext</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/pakadam/source/repos/NaiveWebServer/NaiveWebServer/Application/RestApiHandler.cs" line="18" column="1" bodyfile="C:/Users/pakadam/source/repos/NaiveWebServer/NaiveWebServer/Application/RestApiHandler.cs" bodystart="18" bodyend="24"/>
+        <references refid="class_naive_web_server_1_1_rest_api_handler_1afac7a60978c684eede6e20811c0fa776" compoundref="_rest_api_handler_8cs" startline="25" endline="46">NaiveWebServer.RestApiHandler.SendResponse</references>
+      </memberdef>
+      <memberdef kind="function" id="class_naive_web_server_1_1_rest_api_handler_1afac7a60978c684eede6e20811c0fa776" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void NaiveWebServer.RestApiHandler.SendResponse</definition>
+        <argsstring>(string responseBody, HttpContext httpContext)</argsstring>
+        <name>SendResponse</name>
+        <reimplements refid="interface_naive_web_server_1_1_i_app_handler_1a30dc8c42713fabc8a14e5684de114447">SendResponse</reimplements>
+        <param>
+          <type>string</type>
+          <declname>responseBody</declname>
+        </param>
+        <param>
+          <type><ref refid="class_naive_web_server_1_1_http_context" kindref="compound">HttpContext</ref></type>
+          <declname>httpContext</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/pakadam/source/repos/NaiveWebServer/NaiveWebServer/Application/RestApiHandler.cs" line="25" column="1" bodyfile="C:/Users/pakadam/source/repos/NaiveWebServer/NaiveWebServer/Application/RestApiHandler.cs" bodystart="25" bodyend="46"/>
+        <referencedby refid="class_naive_web_server_1_1_rest_api_handler_1a4c2ea4eee0c53762794a44a61bd8b7ad" compoundref="_rest_api_handler_8cs" startline="18" endline="24">NaiveWebServer.RestApiHandler.HandleRequest</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_naive_web_server_1_1_rest_api_handler_1abfe5a03d5cfa656ec359484667a45eb2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void NaiveWebServer.RestApiHandler.SendInvalidResponse</definition>
+        <argsstring>()</argsstring>
+        <name>SendInvalidResponse</name>
+        <reimplements refid="interface_naive_web_server_1_1_i_app_handler_1a357e1f9e55ccdcfe77170bab39cc720f">SendInvalidResponse</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/pakadam/source/repos/NaiveWebServer/NaiveWebServer/Application/RestApiHandler.cs" line="48" column="1" bodyfile="C:/Users/pakadam/source/repos/NaiveWebServer/NaiveWebServer/Application/RestApiHandler.cs" bodystart="48" bodyend="51"/>
+      </memberdef>
+      <memberdef kind="function" id="class_naive_web_server_1_1_rest_api_handler_1ad2f82892a658d7feee005f2ced8a78dc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void NaiveWebServer.RestApiHandler.RequestType</definition>
+        <argsstring>()</argsstring>
+        <name>RequestType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/pakadam/source/repos/NaiveWebServer/NaiveWebServer/Application/RestApiHandler.cs" line="53" column="1" bodyfile="C:/Users/pakadam/source/repos/NaiveWebServer/NaiveWebServer/Application/RestApiHandler.cs" bodystart="53" bodyend="56"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="54">
+        <label>NaiveWebServer.RestApiHandler</label>
+        <link refid="class_naive_web_server_1_1_rest_api_handler"/>
+        <childnode refid="55" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="55">
+        <label>IAppHandler</label>
+        <link refid="interface_naive_web_server_1_1_i_app_handler"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="56">
+        <label>NaiveWebServer.RestApiHandler</label>
+        <link refid="class_naive_web_server_1_1_rest_api_handler"/>
+        <childnode refid="57" relation="public-inheritance">
+        </childnode>
+        <childnode refid="58" relation="usage">
+          <edgelabel>restApp</edgelabel>
+        </childnode>
+      </node>
+      <node id="58">
+        <label>NaiveWebServer.IRestApp</label>
+        <link refid="interface_naive_web_server_1_1_i_rest_app"/>
+      </node>
+      <node id="57">
+        <label>IAppHandler</label>
+        <link refid="interface_naive_web_server_1_1_i_app_handler"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/pakadam/source/repos/NaiveWebServer/NaiveWebServer/Application/RestApiHandler.cs" line="9" column="1" bodyfile="C:/Users/pakadam/source/repos/NaiveWebServer/NaiveWebServer/Application/RestApiHandler.cs" bodystart="8" bodyend="59"/>
+    <listofallmembers>
+      <member refid="class_naive_web_server_1_1_rest_api_handler_1aae59e39c5f5a655d80e81dd9b0af6bb6" prot="private" virt="non-virtual"><scope>NaiveWebServer::RestApiHandler</scope><name>directory</name></member>
+      <member refid="class_naive_web_server_1_1_rest_api_handler_1a4c2ea4eee0c53762794a44a61bd8b7ad" prot="public" virt="non-virtual"><scope>NaiveWebServer::RestApiHandler</scope><name>HandleRequest</name></member>
+      <member refid="class_naive_web_server_1_1_rest_api_handler_1ad2f82892a658d7feee005f2ced8a78dc" prot="public" virt="non-virtual"><scope>NaiveWebServer::RestApiHandler</scope><name>RequestType</name></member>
+      <member refid="class_naive_web_server_1_1_rest_api_handler_1a97f6544545986d346d7dc8649ef87641" prot="public" virt="non-virtual"><scope>NaiveWebServer::RestApiHandler</scope><name>RestApiHandler</name></member>
+      <member refid="class_naive_web_server_1_1_rest_api_handler_1aa9ab7507c82c5898b5c9f8ae264eca74" prot="public" virt="non-virtual"><scope>NaiveWebServer::RestApiHandler</scope><name>restApp</name></member>
+      <member refid="class_naive_web_server_1_1_rest_api_handler_1abfe5a03d5cfa656ec359484667a45eb2" prot="public" virt="non-virtual"><scope>NaiveWebServer::RestApiHandler</scope><name>SendInvalidResponse</name></member>
+      <member refid="class_naive_web_server_1_1_rest_api_handler_1afac7a60978c684eede6e20811c0fa776" prot="public" virt="non-virtual"><scope>NaiveWebServer::RestApiHandler</scope><name>SendResponse</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

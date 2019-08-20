@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="_web_server_8cs" kind="file">
+    <compoundname>WebServer.cs</compoundname>
+    <innerclass refid="class_naive_web_server_1_1_web_server" prot="public">NaiveWebServer::WebServer</innerclass>
+    <innernamespace refid="namespace_naive_web_server">NaiveWebServer</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System.Collections.Generic;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System.Text;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System.Diagnostics;</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">NaiveWebServer</highlight></codeline>
+<codeline lineno="7"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="8" refid="class_naive_web_server_1_1_web_server" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_naive_web_server_1_1_web_server" kindref="compound">WebServer</ref></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="10" refid="class_naive_web_server_1_1_web_server_1a9f0d9efea455a39013df314da21fb34a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="class_naive_web_server_1_1_server_gateway" kindref="compound">ServerGateway</ref><sp/><ref refid="class_naive_web_server_1_1_web_server_1a9f0d9efea455a39013df314da21fb34a" kindref="member">serverGateway</ref>;</highlight></codeline>
+<codeline lineno="11" refid="class_naive_web_server_1_1_web_server_1ad5ee0bb7f2e4d31c322b73cc5b511165" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="class_naive_web_server_1_1_connection" kindref="compound">Connection</ref><sp/><ref refid="class_naive_web_server_1_1_web_server_1ad5ee0bb7f2e4d31c322b73cc5b511165" kindref="member">connection</ref>;</highlight></codeline>
+<codeline lineno="12" refid="class_naive_web_server_1_1_web_server_1a850cb77d78de01739e73eb02628047b6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="class_naive_web_server_1_1_server_configuration" kindref="compound">ServerConfiguration</ref><sp/><ref refid="class_naive_web_server_1_1_web_server_1a850cb77d78de01739e73eb02628047b6" kindref="member">serverConfiguration</ref>;</highlight></codeline>
+<codeline lineno="13" refid="class_naive_web_server_1_1_web_server_1a1509de1001bb00d279db327db887c815" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="class_naive_web_server_1_1_dispatcher" kindref="compound">Dispatcher</ref><sp/><ref refid="class_naive_web_server_1_1_web_server_1a1509de1001bb00d279db327db887c815" kindref="member">dispatcher</ref>;</highlight></codeline>
+<codeline lineno="14" refid="class_naive_web_server_1_1_web_server_1ab8b5f7dd80e21878f95dc271c6fff8c2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="class_naive_web_server_1_1_web_apps_handler" kindref="compound">WebAppsHandler</ref><sp/><ref refid="class_naive_web_server_1_1_web_server_1ab8b5f7dd80e21878f95dc271c6fff8c2" kindref="member">webAppsHandler</ref>;</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16" refid="class_naive_web_server_1_1_web_server_1a2a1cd6a081ba78cb185ba99cb47758e9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="class_naive_web_server_1_1_web_server_1a2a1cd6a081ba78cb185ba99cb47758e9" kindref="member">WebServer</ref>()</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Debug.WriteLine($</highlight><highlight class="stringliteral">&quot;WebServer<sp/>-&gt;<sp/>WebServer<sp/>&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_naive_web_server_1_1_web_server_1a850cb77d78de01739e73eb02628047b6" kindref="member">serverConfiguration</ref><sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="class_naive_web_server_1_1_server_configuration" kindref="compound">ServerConfiguration</ref>();</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_naive_web_server_1_1_web_server_1ab8b5f7dd80e21878f95dc271c6fff8c2" kindref="member">webAppsHandler</ref><sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="class_naive_web_server_1_1_web_apps_handler" kindref="compound">WebAppsHandler</ref>();</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_naive_web_server_1_1_web_server_1ad5ee0bb7f2e4d31c322b73cc5b511165" kindref="member">connection</ref><sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="class_naive_web_server_1_1_connection" kindref="compound">Connection</ref>(serverConfiguration);</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_naive_web_server_1_1_web_server_1a1509de1001bb00d279db327db887c815" kindref="member">dispatcher</ref><sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="class_naive_web_server_1_1_dispatcher" kindref="compound">Dispatcher</ref>(<ref refid="class_naive_web_server_1_1_web_server_1ab8b5f7dd80e21878f95dc271c6fff8c2" kindref="member">webAppsHandler</ref>);</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_naive_web_server_1_1_web_server_1a9f0d9efea455a39013df314da21fb34a" kindref="member">serverGateway</ref><sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="class_naive_web_server_1_1_server_gateway" kindref="compound">ServerGateway</ref>(<ref refid="class_naive_web_server_1_1_web_server_1ad5ee0bb7f2e4d31c322b73cc5b511165" kindref="member">connection</ref>,<sp/><ref refid="class_naive_web_server_1_1_web_server_1a1509de1001bb00d279db327db887c815" kindref="member">dispatcher</ref>);</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28" refid="class_naive_web_server_1_1_web_server_1a8c6a8b238ace10805815ba433ccd9c14" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_naive_web_server_1_1_web_server_1a8c6a8b238ace10805815ba433ccd9c14" kindref="member">Start</ref>()</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Debug.WriteLine($</highlight><highlight class="stringliteral">&quot;WebServer<sp/>-&gt;<sp/>Start<sp/>&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>serverGateway.Enable();</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35" refid="class_naive_web_server_1_1_web_server_1ac3717ba2fed72ec60138dddebcc813b1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_naive_web_server_1_1_web_server_1ac3717ba2fed72ec60138dddebcc813b1" kindref="member">Stop</ref>()</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Debug.WriteLine($</highlight><highlight class="stringliteral">&quot;WebServer<sp/>-&gt;<sp/>Stop<sp/>&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>serverGateway.Disable();</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="42"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/pakadam/source/repos/NaiveWebServer/NaiveWebServer/Core/WebServer.cs"/>
+  </compounddef>
+</doxygen>

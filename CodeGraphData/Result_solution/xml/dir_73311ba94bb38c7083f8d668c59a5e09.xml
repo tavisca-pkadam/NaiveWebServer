@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_73311ba94bb38c7083f8d668c59a5e09" kind="dir">
+    <compoundname>C:/Users/pakadam/source/repos/NaiveWebServer/NaiveWebServer/Core</compoundname>
+    <innerfile refid="_connection_8cs">Connection.cs</innerfile>
+    <innerfile refid="_server_configuration_8cs">ServerConfiguration.cs</innerfile>
+    <innerfile refid="_server_gateway_8cs">ServerGateway.cs</innerfile>
+    <innerfile refid="_web_server_8cs">WebServer.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/pakadam/source/repos/NaiveWebServer/NaiveWebServer/Core/"/>
+  </compounddef>
+</doxygen>

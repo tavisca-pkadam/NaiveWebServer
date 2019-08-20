@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_naive_web_server_1_1_i_request" kind="class" prot="public">
+    <compoundname>NaiveWebServer::IRequest</compoundname>
+    <derivedcompoundref refid="class_naive_web_server_1_1_http_request" prot="public" virt="non-virtual">NaiveWebServer.HttpRequest</derivedcompoundref>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="37">
+        <label>NaiveWebServer.HttpRequest</label>
+        <link refid="class_naive_web_server_1_1_http_request"/>
+        <childnode refid="36" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="36">
+        <label>NaiveWebServer.IRequest</label>
+        <link refid="class_naive_web_server_1_1_i_request"/>
+      </node>
+    </inheritancegraph>
+    <location file="C:/Users/pakadam/source/repos/NaiveWebServer/NaiveWebServer/Http/IRequest.cs" line="8" column="1" bodyfile="C:/Users/pakadam/source/repos/NaiveWebServer/NaiveWebServer/Http/IRequest.cs" bodystart="7" bodyend="9"/>
+    <listofallmembers>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

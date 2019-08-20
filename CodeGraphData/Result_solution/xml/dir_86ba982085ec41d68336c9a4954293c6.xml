@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_86ba982085ec41d68336c9a4954293c6" kind="dir">
+    <compoundname>C:/Users/pakadam/source/repos/NaiveWebServer/NaiveWebServer</compoundname>
+    <innerdir refid="dir_d44d12fa728671a62f5921314973bc03">C:/Users/pakadam/source/repos/NaiveWebServer/NaiveWebServer/Application</innerdir>
+    <innerdir refid="dir_73311ba94bb38c7083f8d668c59a5e09">C:/Users/pakadam/source/repos/NaiveWebServer/NaiveWebServer/Core</innerdir>
+    <innerdir refid="dir_da6b7b1617473fe23b4da309fdd8f0ac">C:/Users/pakadam/source/repos/NaiveWebServer/NaiveWebServer/Http</innerdir>
+    <innerdir refid="dir_bff7ae5cc27508fa497bba06ca4dfa3f">C:/Users/pakadam/source/repos/NaiveWebServer/NaiveWebServer/Middleware</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/pakadam/source/repos/NaiveWebServer/NaiveWebServer/"/>
+  </compounddef>
+</doxygen>

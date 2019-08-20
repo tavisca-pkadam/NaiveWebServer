@@ -1,0 +1,95 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="interface_naive_web_server_1_1_i_app_handler" kind="interface" prot="public">
+    <compoundname>NaiveWebServer::IAppHandler</compoundname>
+    <derivedcompoundref refid="class_naive_web_server_1_1_rest_api_handler" prot="public" virt="non-virtual">NaiveWebServer.RestApiHandler</derivedcompoundref>
+    <derivedcompoundref refid="class_naive_web_server_1_1_static_app_handler" prot="public" virt="non-virtual">NaiveWebServer.StaticAppHandler</derivedcompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="interface_naive_web_server_1_1_i_app_handler_1aff155b2768b0f3807e88bb75d22357c4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void NaiveWebServer.IAppHandler.HandleRequest</definition>
+        <argsstring>(HttpContext httpContext)</argsstring>
+        <name>HandleRequest</name>
+        <reimplementedby refid="class_naive_web_server_1_1_rest_api_handler_1a4c2ea4eee0c53762794a44a61bd8b7ad">HandleRequest</reimplementedby>
+        <reimplementedby refid="class_naive_web_server_1_1_static_app_handler_1ac4193ca5b11b5f9f29bea1ad257a939b">HandleRequest</reimplementedby>
+        <param>
+          <type><ref refid="class_naive_web_server_1_1_http_context" kindref="compound">HttpContext</ref></type>
+          <declname>httpContext</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/pakadam/source/repos/NaiveWebServer/NaiveWebServer/Application/IAppHandler.cs" line="9" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_naive_web_server_1_1_i_app_handler_1a30dc8c42713fabc8a14e5684de114447" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void NaiveWebServer.IAppHandler.SendResponse</definition>
+        <argsstring>(string responseBody, HttpContext httpContext)</argsstring>
+        <name>SendResponse</name>
+        <reimplementedby refid="class_naive_web_server_1_1_rest_api_handler_1afac7a60978c684eede6e20811c0fa776">SendResponse</reimplementedby>
+        <reimplementedby refid="class_naive_web_server_1_1_static_app_handler_1a981107d5a42605cbac57d95b529ebb50">SendResponse</reimplementedby>
+        <param>
+          <type>string</type>
+          <declname>responseBody</declname>
+        </param>
+        <param>
+          <type><ref refid="class_naive_web_server_1_1_http_context" kindref="compound">HttpContext</ref></type>
+          <declname>httpContext</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/pakadam/source/repos/NaiveWebServer/NaiveWebServer/Application/IAppHandler.cs" line="11" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_naive_web_server_1_1_i_app_handler_1a357e1f9e55ccdcfe77170bab39cc720f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void NaiveWebServer.IAppHandler.SendInvalidResponse</definition>
+        <argsstring>()</argsstring>
+        <name>SendInvalidResponse</name>
+        <reimplementedby refid="class_naive_web_server_1_1_rest_api_handler_1abfe5a03d5cfa656ec359484667a45eb2">SendInvalidResponse</reimplementedby>
+        <reimplementedby refid="class_naive_web_server_1_1_static_app_handler_1a70d7b85875af46550758c781ff185a99">SendInvalidResponse</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/pakadam/source/repos/NaiveWebServer/NaiveWebServer/Application/IAppHandler.cs" line="13" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="29">
+        <label>NaiveWebServer.IAppHandler</label>
+        <link refid="interface_naive_web_server_1_1_i_app_handler"/>
+      </node>
+      <node id="31">
+        <label>NaiveWebServer.StaticAppHandler</label>
+        <link refid="class_naive_web_server_1_1_static_app_handler"/>
+        <childnode refid="29" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="30">
+        <label>NaiveWebServer.RestApiHandler</label>
+        <link refid="class_naive_web_server_1_1_rest_api_handler"/>
+        <childnode refid="29" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="C:/Users/pakadam/source/repos/NaiveWebServer/NaiveWebServer/Application/IAppHandler.cs" line="8" column="1" bodyfile="C:/Users/pakadam/source/repos/NaiveWebServer/NaiveWebServer/Application/IAppHandler.cs" bodystart="7" bodyend="14"/>
+    <listofallmembers>
+      <member refid="interface_naive_web_server_1_1_i_app_handler_1aff155b2768b0f3807e88bb75d22357c4" prot="public" virt="non-virtual"><scope>NaiveWebServer::IAppHandler</scope><name>HandleRequest</name></member>
+      <member refid="interface_naive_web_server_1_1_i_app_handler_1a357e1f9e55ccdcfe77170bab39cc720f" prot="public" virt="non-virtual"><scope>NaiveWebServer::IAppHandler</scope><name>SendInvalidResponse</name></member>
+      <member refid="interface_naive_web_server_1_1_i_app_handler_1a30dc8c42713fabc8a14e5684de114447" prot="public" virt="non-virtual"><scope>NaiveWebServer::IAppHandler</scope><name>SendResponse</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

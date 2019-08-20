@@ -1,0 +1,129 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_naive_web_server_1_1_http_context" kind="class" prot="public">
+    <compoundname>NaiveWebServer::HttpContext</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_naive_web_server_1_1_http_context_1a00283be234bd1dc89af619218a548681" prot="public" static="no" mutable="no">
+        <type>TcpClient</type>
+        <definition>TcpClient NaiveWebServer.HttpContext.client</definition>
+        <argsstring></argsstring>
+        <name>client</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/pakadam/source/repos/NaiveWebServer/NaiveWebServer/Http/HttpContext.cs" line="16" column="1" bodyfile="C:/Users/pakadam/source/repos/NaiveWebServer/NaiveWebServer/Http/HttpContext.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_naive_web_server_1_1_http_context_1aa47d220af2126b6e965c967faffa0a0e" prot="public" static="no" mutable="no">
+        <type>NetworkStream</type>
+        <definition>NetworkStream NaiveWebServer.HttpContext.networkStream</definition>
+        <argsstring></argsstring>
+        <name>networkStream</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/pakadam/source/repos/NaiveWebServer/NaiveWebServer/Http/HttpContext.cs" line="17" column="1" bodyfile="C:/Users/pakadam/source/repos/NaiveWebServer/NaiveWebServer/Http/HttpContext.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_naive_web_server_1_1_http_context_1aea28e4758b080ac285137837a99ca7d0" prot="public" static="no" mutable="no">
+        <type><ref refid="class_naive_web_server_1_1_http_request" kindref="compound">HttpRequest</ref></type>
+        <definition>HttpRequest NaiveWebServer.HttpContext.request</definition>
+        <argsstring></argsstring>
+        <name>request</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/pakadam/source/repos/NaiveWebServer/NaiveWebServer/Http/HttpContext.cs" line="18" column="1" bodyfile="C:/Users/pakadam/source/repos/NaiveWebServer/NaiveWebServer/Http/HttpContext.cs" bodystart="18" bodyend="-1"/>
+        <referencedby refid="class_naive_web_server_1_1_http_context_1acfa0788da5bcc1fe28df99a3055a15d3" compoundref="_http_context_8cs" startline="21" endline="35">NaiveWebServer.HttpContext.HttpContext</referencedby>
+        <referencedby refid="class_naive_web_server_1_1_leap_year_rest_app_1a24bf9540da25f7be24febe3eb6661860" compoundref="_leap_year_rest_app_8cs" startline="32" endline="68">NaiveWebServer.LeapYearRestApp.MatchRequestTypeToFunction</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_naive_web_server_1_1_http_context_1a173617da4d2b71cb9be0be4a70c7904a" prot="public" static="no" mutable="no">
+        <type><ref refid="class_naive_web_server_1_1_http_response" kindref="compound">HttpResponse</ref></type>
+        <definition>HttpResponse NaiveWebServer.HttpContext.response</definition>
+        <argsstring></argsstring>
+        <name>response</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/pakadam/source/repos/NaiveWebServer/NaiveWebServer/Http/HttpContext.cs" line="19" column="1" bodyfile="C:/Users/pakadam/source/repos/NaiveWebServer/NaiveWebServer/Http/HttpContext.cs" bodystart="19" bodyend="-1"/>
+        <referencedby refid="class_naive_web_server_1_1_http_context_1acfa0788da5bcc1fe28df99a3055a15d3" compoundref="_http_context_8cs" startline="21" endline="35">NaiveWebServer.HttpContext.HttpContext</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_naive_web_server_1_1_http_context_1acfa0788da5bcc1fe28df99a3055a15d3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>NaiveWebServer.HttpContext.HttpContext</definition>
+        <argsstring>(TcpClient clientSocket)</argsstring>
+        <name>HttpContext</name>
+        <param>
+          <type>TcpClient</type>
+          <declname>clientSocket</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/pakadam/source/repos/NaiveWebServer/NaiveWebServer/Http/HttpContext.cs" line="21" column="1" bodyfile="C:/Users/pakadam/source/repos/NaiveWebServer/NaiveWebServer/Http/HttpContext.cs" bodystart="21" bodyend="35"/>
+        <references refid="class_naive_web_server_1_1_http_context_1aea28e4758b080ac285137837a99ca7d0" compoundref="_http_context_8cs" startline="18">NaiveWebServer.HttpContext.request</references>
+        <references refid="class_naive_web_server_1_1_http_context_1a173617da4d2b71cb9be0be4a70c7904a" compoundref="_http_context_8cs" startline="19">NaiveWebServer.HttpContext.response</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="17">
+        <label>NaiveWebServer.HttpContext</label>
+        <link refid="class_naive_web_server_1_1_http_context"/>
+        <childnode refid="18" relation="usage">
+          <edgelabel>response</edgelabel>
+        </childnode>
+        <childnode refid="20" relation="usage">
+          <edgelabel>request</edgelabel>
+        </childnode>
+      </node>
+      <node id="21">
+        <label>IRequest</label>
+        <link refid="class_naive_web_server_1_1_i_request"/>
+      </node>
+      <node id="20">
+        <label>NaiveWebServer.HttpRequest</label>
+        <link refid="class_naive_web_server_1_1_http_request"/>
+        <childnode refid="21" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="19">
+        <label>NaiveWebServer.IHttpStatusCode</label>
+        <link refid="interface_naive_web_server_1_1_i_http_status_code"/>
+      </node>
+      <node id="18">
+        <label>NaiveWebServer.HttpResponse</label>
+        <link refid="class_naive_web_server_1_1_http_response"/>
+        <childnode refid="19" relation="usage">
+          <edgelabel>httpStatusCode</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/pakadam/source/repos/NaiveWebServer/NaiveWebServer/Http/HttpContext.cs" line="15" column="1" bodyfile="C:/Users/pakadam/source/repos/NaiveWebServer/NaiveWebServer/Http/HttpContext.cs" bodystart="14" bodyend="39"/>
+    <listofallmembers>
+      <member refid="class_naive_web_server_1_1_http_context_1a00283be234bd1dc89af619218a548681" prot="public" virt="non-virtual"><scope>NaiveWebServer::HttpContext</scope><name>client</name></member>
+      <member refid="class_naive_web_server_1_1_http_context_1acfa0788da5bcc1fe28df99a3055a15d3" prot="public" virt="non-virtual"><scope>NaiveWebServer::HttpContext</scope><name>HttpContext</name></member>
+      <member refid="class_naive_web_server_1_1_http_context_1aa47d220af2126b6e965c967faffa0a0e" prot="public" virt="non-virtual"><scope>NaiveWebServer::HttpContext</scope><name>networkStream</name></member>
+      <member refid="class_naive_web_server_1_1_http_context_1aea28e4758b080ac285137837a99ca7d0" prot="public" virt="non-virtual"><scope>NaiveWebServer::HttpContext</scope><name>request</name></member>
+      <member refid="class_naive_web_server_1_1_http_context_1a173617da4d2b71cb9be0be4a70c7904a" prot="public" virt="non-virtual"><scope>NaiveWebServer::HttpContext</scope><name>response</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

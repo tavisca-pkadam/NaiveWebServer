@@ -1,0 +1,83 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_naive_web_server_1_1_web_apps_handler" kind="class" prot="public">
+    <compoundname>NaiveWebServer::WebAppsHandler</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_naive_web_server_1_1_web_apps_handler_1a509ed32bcbe8cd01f439baf644675309" prot="private" static="no" mutable="no">
+        <type>List&lt; <ref refid="class_naive_web_server_1_1_web_app" kindref="compound">WebApp</ref> &gt;</type>
+        <definition>List&lt;WebApp&gt; NaiveWebServer.WebAppsHandler.webAppList</definition>
+        <argsstring></argsstring>
+        <name>webAppList</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/pakadam/source/repos/NaiveWebServer/NaiveWebServer/Application/WebAppsHandler.cs" line="13" column="1" bodyfile="C:/Users/pakadam/source/repos/NaiveWebServer/NaiveWebServer/Application/WebAppsHandler.cs" bodystart="13" bodyend="-1"/>
+        <referencedby refid="class_naive_web_server_1_1_web_apps_handler_1aaa084746f487cba1c0fc315af93e9ae2" compoundref="_web_apps_handler_8cs" startline="15" endline="18">NaiveWebServer.WebAppsHandler.WebAppsHandler</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_naive_web_server_1_1_web_apps_handler_1aaa084746f487cba1c0fc315af93e9ae2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>NaiveWebServer.WebAppsHandler.WebAppsHandler</definition>
+        <argsstring>()</argsstring>
+        <name>WebAppsHandler</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/pakadam/source/repos/NaiveWebServer/NaiveWebServer/Application/WebAppsHandler.cs" line="15" column="1" bodyfile="C:/Users/pakadam/source/repos/NaiveWebServer/NaiveWebServer/Application/WebAppsHandler.cs" bodystart="15" bodyend="18"/>
+        <references refid="class_naive_web_server_1_1_web_apps_handler_1a509ed32bcbe8cd01f439baf644675309" compoundref="_web_apps_handler_8cs" startline="13">NaiveWebServer.WebAppsHandler.webAppList</references>
+      </memberdef>
+      <memberdef kind="function" id="class_naive_web_server_1_1_web_apps_handler_1a05dee380cb44cff783017342b50695fd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool NaiveWebServer.WebAppsHandler.Add</definition>
+        <argsstring>(WebApp webApp)</argsstring>
+        <name>Add</name>
+        <param>
+          <type><ref refid="class_naive_web_server_1_1_web_app" kindref="compound">WebApp</ref></type>
+          <declname>webApp</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/pakadam/source/repos/NaiveWebServer/NaiveWebServer/Application/WebAppsHandler.cs" line="20" column="1" bodyfile="C:/Users/pakadam/source/repos/NaiveWebServer/NaiveWebServer/Application/WebAppsHandler.cs" bodystart="20" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="function" id="class_naive_web_server_1_1_web_apps_handler_1ae4bd1b91c21428f99e8533a8bd7a58e4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_naive_web_server_1_1_web_app" kindref="compound">WebApp</ref></type>
+        <definition>WebApp NaiveWebServer.WebAppsHandler.GetWebAppByLocation</definition>
+        <argsstring>(string webAppLocation)</argsstring>
+        <name>GetWebAppByLocation</name>
+        <param>
+          <type>string</type>
+          <declname>webAppLocation</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/pakadam/source/repos/NaiveWebServer/NaiveWebServer/Application/WebAppsHandler.cs" line="26" column="1" bodyfile="C:/Users/pakadam/source/repos/NaiveWebServer/NaiveWebServer/Application/WebAppsHandler.cs" bodystart="26" bodyend="48"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/pakadam/source/repos/NaiveWebServer/NaiveWebServer/Application/WebAppsHandler.cs" line="12" column="1" bodyfile="C:/Users/pakadam/source/repos/NaiveWebServer/NaiveWebServer/Application/WebAppsHandler.cs" bodystart="11" bodyend="49"/>
+    <listofallmembers>
+      <member refid="class_naive_web_server_1_1_web_apps_handler_1a05dee380cb44cff783017342b50695fd" prot="public" virt="non-virtual"><scope>NaiveWebServer::WebAppsHandler</scope><name>Add</name></member>
+      <member refid="class_naive_web_server_1_1_web_apps_handler_1ae4bd1b91c21428f99e8533a8bd7a58e4" prot="public" virt="non-virtual"><scope>NaiveWebServer::WebAppsHandler</scope><name>GetWebAppByLocation</name></member>
+      <member refid="class_naive_web_server_1_1_web_apps_handler_1a509ed32bcbe8cd01f439baf644675309" prot="private" virt="non-virtual"><scope>NaiveWebServer::WebAppsHandler</scope><name>webAppList</name></member>
+      <member refid="class_naive_web_server_1_1_web_apps_handler_1aaa084746f487cba1c0fc315af93e9ae2" prot="public" virt="non-virtual"><scope>NaiveWebServer::WebAppsHandler</scope><name>WebAppsHandler</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

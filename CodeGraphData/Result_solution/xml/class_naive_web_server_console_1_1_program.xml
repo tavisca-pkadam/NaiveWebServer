@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_naive_web_server_console_1_1_program" kind="class" prot="public">
+    <compoundname>NaiveWebServerConsole::Program</compoundname>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_naive_web_server_console_1_1_program_1aa2bb9487ad4468d01c129d8722d2bee1" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void NaiveWebServerConsole.Program.Main</definition>
+        <argsstring>(string[] args)</argsstring>
+        <name>Main</name>
+        <param>
+          <type>string[]</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/pakadam/source/repos/NaiveWebServer/NaiveWebServerConsole/Program.cs" line="8" column="1" bodyfile="C:/Users/pakadam/source/repos/NaiveWebServer/NaiveWebServerConsole/Program.cs" bodystart="8" bodyend="29"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/pakadam/source/repos/NaiveWebServer/NaiveWebServerConsole/Program.cs" line="7" column="1" bodyfile="C:/Users/pakadam/source/repos/NaiveWebServer/NaiveWebServerConsole/Program.cs" bodystart="6" bodyend="30"/>
+    <listofallmembers>
+      <member refid="class_naive_web_server_console_1_1_program_1aa2bb9487ad4468d01c129d8722d2bee1" prot="private" virt="non-virtual"><scope>NaiveWebServerConsole::Program</scope><name>Main</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

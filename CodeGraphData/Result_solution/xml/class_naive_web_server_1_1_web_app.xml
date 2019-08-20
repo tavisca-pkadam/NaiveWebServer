@@ -1,0 +1,140 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_naive_web_server_1_1_web_app" kind="class" prot="public">
+    <compoundname>NaiveWebServer::WebApp</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_naive_web_server_1_1_web_app_1ac44ec1af6e416780f47f76765d1eace1" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string NaiveWebServer.WebApp.name</definition>
+        <argsstring></argsstring>
+        <name>name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/pakadam/source/repos/NaiveWebServer/NaiveWebServer/Application/WebApp.cs" line="10" column="1" bodyfile="C:/Users/pakadam/source/repos/NaiveWebServer/NaiveWebServer/Application/WebApp.cs" bodystart="10" bodyend="-1"/>
+        <referencedby refid="class_naive_web_server_1_1_web_app_1a6b3439b18761003ab13738a1945ec96d" compoundref="_web_app_8cs" startline="15" endline="23">NaiveWebServer.WebApp.WebApp</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_naive_web_server_1_1_web_app_1a87fa67190fd8234d54092539bb3fc4b4" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string NaiveWebServer.WebApp.location</definition>
+        <argsstring></argsstring>
+        <name>location</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/pakadam/source/repos/NaiveWebServer/NaiveWebServer/Application/WebApp.cs" line="11" column="1" bodyfile="C:/Users/pakadam/source/repos/NaiveWebServer/NaiveWebServer/Application/WebApp.cs" bodystart="11" bodyend="-1"/>
+        <referencedby refid="class_naive_web_server_1_1_web_app_1a6b3439b18761003ab13738a1945ec96d" compoundref="_web_app_8cs" startline="15" endline="23">NaiveWebServer.WebApp.WebApp</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_naive_web_server_1_1_web_app_1a2cfb176f5b8885cd1bde8fc78ceb9b3b" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string NaiveWebServer.WebApp.directory</definition>
+        <argsstring></argsstring>
+        <name>directory</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/pakadam/source/repos/NaiveWebServer/NaiveWebServer/Application/WebApp.cs" line="12" column="1" bodyfile="C:/Users/pakadam/source/repos/NaiveWebServer/NaiveWebServer/Application/WebApp.cs" bodystart="12" bodyend="-1"/>
+        <referencedby refid="class_naive_web_server_1_1_web_app_1a6b3439b18761003ab13738a1945ec96d" compoundref="_web_app_8cs" startline="15" endline="23">NaiveWebServer.WebApp.WebApp</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_naive_web_server_1_1_web_app_1a4976fcd8ce5a6a2c82af8d9487b835a9" prot="public" static="no" mutable="no">
+        <type><ref refid="interface_naive_web_server_1_1_i_app_handler" kindref="compound">IAppHandler</ref></type>
+        <definition>IAppHandler NaiveWebServer.WebApp.appHandler</definition>
+        <argsstring></argsstring>
+        <name>appHandler</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/pakadam/source/repos/NaiveWebServer/NaiveWebServer/Application/WebApp.cs" line="13" column="1" bodyfile="C:/Users/pakadam/source/repos/NaiveWebServer/NaiveWebServer/Application/WebApp.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_naive_web_server_1_1_web_app_1a6b3439b18761003ab13738a1945ec96d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>NaiveWebServer.WebApp.WebApp</definition>
+        <argsstring>(string name, string location, string directory, string appType)</argsstring>
+        <name>WebApp</name>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>location</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>directory</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>appType</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/pakadam/source/repos/NaiveWebServer/NaiveWebServer/Application/WebApp.cs" line="15" column="1" bodyfile="C:/Users/pakadam/source/repos/NaiveWebServer/NaiveWebServer/Application/WebApp.cs" bodystart="15" bodyend="23"/>
+        <references refid="class_naive_web_server_1_1_web_app_1a2cfb176f5b8885cd1bde8fc78ceb9b3b" compoundref="_web_app_8cs" startline="12">NaiveWebServer.WebApp.directory</references>
+        <references refid="class_naive_web_server_1_1_web_app_1a87fa67190fd8234d54092539bb3fc4b4" compoundref="_web_app_8cs" startline="11">NaiveWebServer.WebApp.location</references>
+        <references refid="class_naive_web_server_1_1_web_app_1ac44ec1af6e416780f47f76765d1eace1" compoundref="_web_app_8cs" startline="10">NaiveWebServer.WebApp.name</references>
+      </memberdef>
+      <memberdef kind="function" id="class_naive_web_server_1_1_web_app_1a9df33485ce0e6a61a15f305a6d6cdbed" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void NaiveWebServer.WebApp.ForwardRequestToHandler</definition>
+        <argsstring>(HttpContext httpContext)</argsstring>
+        <name>ForwardRequestToHandler</name>
+        <param>
+          <type><ref refid="class_naive_web_server_1_1_http_context" kindref="compound">HttpContext</ref></type>
+          <declname>httpContext</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/pakadam/source/repos/NaiveWebServer/NaiveWebServer/Application/WebApp.cs" line="25" column="1" bodyfile="C:/Users/pakadam/source/repos/NaiveWebServer/NaiveWebServer/Application/WebApp.cs" bodystart="25" bodyend="30"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="82">
+        <label>NaiveWebServer.IAppHandler</label>
+        <link refid="interface_naive_web_server_1_1_i_app_handler"/>
+      </node>
+      <node id="81">
+        <label>NaiveWebServer.WebApp</label>
+        <link refid="class_naive_web_server_1_1_web_app"/>
+        <childnode refid="82" relation="usage">
+          <edgelabel>appHandler</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/pakadam/source/repos/NaiveWebServer/NaiveWebServer/Application/WebApp.cs" line="9" column="1" bodyfile="C:/Users/pakadam/source/repos/NaiveWebServer/NaiveWebServer/Application/WebApp.cs" bodystart="8" bodyend="32"/>
+    <listofallmembers>
+      <member refid="class_naive_web_server_1_1_web_app_1a4976fcd8ce5a6a2c82af8d9487b835a9" prot="public" virt="non-virtual"><scope>NaiveWebServer::WebApp</scope><name>appHandler</name></member>
+      <member refid="class_naive_web_server_1_1_web_app_1a2cfb176f5b8885cd1bde8fc78ceb9b3b" prot="public" virt="non-virtual"><scope>NaiveWebServer::WebApp</scope><name>directory</name></member>
+      <member refid="class_naive_web_server_1_1_web_app_1a9df33485ce0e6a61a15f305a6d6cdbed" prot="public" virt="non-virtual"><scope>NaiveWebServer::WebApp</scope><name>ForwardRequestToHandler</name></member>
+      <member refid="class_naive_web_server_1_1_web_app_1a87fa67190fd8234d54092539bb3fc4b4" prot="public" virt="non-virtual"><scope>NaiveWebServer::WebApp</scope><name>location</name></member>
+      <member refid="class_naive_web_server_1_1_web_app_1ac44ec1af6e416780f47f76765d1eace1" prot="public" virt="non-virtual"><scope>NaiveWebServer::WebApp</scope><name>name</name></member>
+      <member refid="class_naive_web_server_1_1_web_app_1a6b3439b18761003ab13738a1945ec96d" prot="public" virt="non-virtual"><scope>NaiveWebServer::WebApp</scope><name>WebApp</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

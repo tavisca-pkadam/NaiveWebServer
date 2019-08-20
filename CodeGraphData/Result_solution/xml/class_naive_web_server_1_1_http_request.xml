@@ -1,0 +1,153 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_naive_web_server_1_1_http_request" kind="class" prot="public">
+    <compoundname>NaiveWebServer::HttpRequest</compoundname>
+    <basecompoundref refid="class_naive_web_server_1_1_i_request" prot="public" virt="non-virtual">NaiveWebServer.IRequest</basecompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_naive_web_server_1_1_http_request_1a860c8a6ac972c6113598bb071ad73d71" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type><ref refid="namespace_naive_web_server_1a563abe00bc3d96943115e971c3bd8b14" kindref="member">RequestType</ref></type>
+        <definition>RequestType NaiveWebServer.HttpRequest.methodType</definition>
+        <argsstring></argsstring>
+        <name>methodType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/pakadam/source/repos/NaiveWebServer/NaiveWebServer/Http/HttpRequest.cs" line="14" column="1" bodyfile="C:/Users/pakadam/source/repos/NaiveWebServer/NaiveWebServer/Http/HttpRequest.cs" bodystart="14" bodyend="-1"/>
+        <referencedby refid="class_naive_web_server_1_1_leap_year_rest_app_1a24bf9540da25f7be24febe3eb6661860" compoundref="_leap_year_rest_app_8cs" startline="32" endline="68">NaiveWebServer.LeapYearRestApp.MatchRequestTypeToFunction</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_naive_web_server_1_1_http_request_1a95c91deff8b185267c2201e03ae70cfa" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string NaiveWebServer.HttpRequest.location</definition>
+        <argsstring></argsstring>
+        <name>location</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/pakadam/source/repos/NaiveWebServer/NaiveWebServer/Http/HttpRequest.cs" line="15" column="1" bodyfile="C:/Users/pakadam/source/repos/NaiveWebServer/NaiveWebServer/Http/HttpRequest.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_naive_web_server_1_1_http_request_1a6410ea1eb841307f38072c1b602ac882" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string NaiveWebServer.HttpRequest.body</definition>
+        <argsstring></argsstring>
+        <name>body</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/pakadam/source/repos/NaiveWebServer/NaiveWebServer/Http/HttpRequest.cs" line="16" column="1" bodyfile="C:/Users/pakadam/source/repos/NaiveWebServer/NaiveWebServer/Http/HttpRequest.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_naive_web_server_1_1_http_request_1a7f484a035dd28e41d52a915e323c07fc" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string NaiveWebServer.HttpRequest.httpVersion</definition>
+        <argsstring></argsstring>
+        <name>httpVersion</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/pakadam/source/repos/NaiveWebServer/NaiveWebServer/Http/HttpRequest.cs" line="17" column="1" bodyfile="C:/Users/pakadam/source/repos/NaiveWebServer/NaiveWebServer/Http/HttpRequest.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_naive_web_server_1_1_http_request_1a50f2cd2d3d1e72849f5a3a2de46de5c1" prot="private" static="no" mutable="no">
+        <type>Dictionary&lt; string, string &gt;</type>
+        <definition>Dictionary&lt;string, string&gt; NaiveWebServer.HttpRequest.tokens</definition>
+        <argsstring></argsstring>
+        <name>tokens</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/pakadam/source/repos/NaiveWebServer/NaiveWebServer/Http/HttpRequest.cs" line="19" column="1" bodyfile="C:/Users/pakadam/source/repos/NaiveWebServer/NaiveWebServer/Http/HttpRequest.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_naive_web_server_1_1_http_request_1af8601c851a99fd803222e9e2db20ca44" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>NaiveWebServer.HttpRequest.HttpRequest</definition>
+        <argsstring>(string data)</argsstring>
+        <name>HttpRequest</name>
+        <param>
+          <type>string</type>
+          <declname>data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/pakadam/source/repos/NaiveWebServer/NaiveWebServer/Http/HttpRequest.cs" line="21" column="1" bodyfile="C:/Users/pakadam/source/repos/NaiveWebServer/NaiveWebServer/Http/HttpRequest.cs" bodystart="21" bodyend="25"/>
+        <references refid="class_naive_web_server_1_1_http_request_1acb3d2505861c7803517c3537373e0278" compoundref="_http_request_8cs" startline="27" endline="91">NaiveWebServer.HttpRequest.ParseRequestData</references>
+      </memberdef>
+      <memberdef kind="function" id="class_naive_web_server_1_1_http_request_1acb3d2505861c7803517c3537373e0278" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void NaiveWebServer.HttpRequest.ParseRequestData</definition>
+        <argsstring>(string data)</argsstring>
+        <name>ParseRequestData</name>
+        <param>
+          <type>string</type>
+          <declname>data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/pakadam/source/repos/NaiveWebServer/NaiveWebServer/Http/HttpRequest.cs" line="27" column="1" bodyfile="C:/Users/pakadam/source/repos/NaiveWebServer/NaiveWebServer/Http/HttpRequest.cs" bodystart="27" bodyend="91"/>
+        <referencedby refid="class_naive_web_server_1_1_http_request_1af8601c851a99fd803222e9e2db20ca44" compoundref="_http_request_8cs" startline="21" endline="25">NaiveWebServer.HttpRequest.HttpRequest</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="23">
+        <label>IRequest</label>
+        <link refid="class_naive_web_server_1_1_i_request"/>
+      </node>
+      <node id="22">
+        <label>NaiveWebServer.HttpRequest</label>
+        <link refid="class_naive_web_server_1_1_http_request"/>
+        <childnode refid="23" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="25">
+        <label>IRequest</label>
+        <link refid="class_naive_web_server_1_1_i_request"/>
+      </node>
+      <node id="24">
+        <label>NaiveWebServer.HttpRequest</label>
+        <link refid="class_naive_web_server_1_1_http_request"/>
+        <childnode refid="25" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/pakadam/source/repos/NaiveWebServer/NaiveWebServer/Http/HttpRequest.cs" line="13" column="1" bodyfile="C:/Users/pakadam/source/repos/NaiveWebServer/NaiveWebServer/Http/HttpRequest.cs" bodystart="12" bodyend="92"/>
+    <listofallmembers>
+      <member refid="class_naive_web_server_1_1_http_request_1a6410ea1eb841307f38072c1b602ac882" prot="public" virt="non-virtual"><scope>NaiveWebServer::HttpRequest</scope><name>body</name></member>
+      <member refid="class_naive_web_server_1_1_http_request_1af8601c851a99fd803222e9e2db20ca44" prot="public" virt="non-virtual"><scope>NaiveWebServer::HttpRequest</scope><name>HttpRequest</name></member>
+      <member refid="class_naive_web_server_1_1_http_request_1a7f484a035dd28e41d52a915e323c07fc" prot="public" virt="non-virtual"><scope>NaiveWebServer::HttpRequest</scope><name>httpVersion</name></member>
+      <member refid="class_naive_web_server_1_1_http_request_1a95c91deff8b185267c2201e03ae70cfa" prot="public" virt="non-virtual"><scope>NaiveWebServer::HttpRequest</scope><name>location</name></member>
+      <member refid="class_naive_web_server_1_1_http_request_1a860c8a6ac972c6113598bb071ad73d71" prot="public" virt="non-virtual"><scope>NaiveWebServer::HttpRequest</scope><name>methodType</name></member>
+      <member refid="class_naive_web_server_1_1_http_request_1acb3d2505861c7803517c3537373e0278" prot="public" virt="non-virtual"><scope>NaiveWebServer::HttpRequest</scope><name>ParseRequestData</name></member>
+      <member refid="class_naive_web_server_1_1_http_request_1a50f2cd2d3d1e72849f5a3a2de46de5c1" prot="private" virt="non-virtual"><scope>NaiveWebServer::HttpRequest</scope><name>tokens</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

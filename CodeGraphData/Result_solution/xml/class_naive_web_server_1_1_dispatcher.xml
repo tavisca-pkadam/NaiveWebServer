@@ -1,0 +1,118 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_naive_web_server_1_1_dispatcher" kind="class" prot="public">
+    <compoundname>NaiveWebServer::Dispatcher</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_naive_web_server_1_1_dispatcher_1ad8886e0187635f7eebf0408943db727b" prot="public" static="no" mutable="no">
+        <type><ref refid="class_naive_web_server_1_1_web_apps_handler" kindref="compound">WebAppsHandler</ref></type>
+        <definition>WebAppsHandler NaiveWebServer.Dispatcher.webAppsHandler</definition>
+        <argsstring></argsstring>
+        <name>webAppsHandler</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/pakadam/source/repos/NaiveWebServer/NaiveWebServer/Middleware/Dispatcher.cs" line="10" column="1" bodyfile="C:/Users/pakadam/source/repos/NaiveWebServer/NaiveWebServer/Middleware/Dispatcher.cs" bodystart="10" bodyend="-1"/>
+        <referencedby refid="class_naive_web_server_1_1_dispatcher_1a84f7d10c7c1752c290b67f0bead6f7db" compoundref="_dispatcher_8cs" startline="11" endline="16">NaiveWebServer.Dispatcher.Dispatcher</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_naive_web_server_1_1_dispatcher_1a84f7d10c7c1752c290b67f0bead6f7db" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>NaiveWebServer.Dispatcher.Dispatcher</definition>
+        <argsstring>(WebAppsHandler webAppsHandler)</argsstring>
+        <name>Dispatcher</name>
+        <param>
+          <type><ref refid="class_naive_web_server_1_1_web_apps_handler" kindref="compound">WebAppsHandler</ref></type>
+          <declname>webAppsHandler</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/pakadam/source/repos/NaiveWebServer/NaiveWebServer/Middleware/Dispatcher.cs" line="11" column="1" bodyfile="C:/Users/pakadam/source/repos/NaiveWebServer/NaiveWebServer/Middleware/Dispatcher.cs" bodystart="11" bodyend="16"/>
+        <references refid="class_naive_web_server_1_1_dispatcher_1ad8886e0187635f7eebf0408943db727b" compoundref="_dispatcher_8cs" startline="10">NaiveWebServer.Dispatcher.webAppsHandler</references>
+      </memberdef>
+      <memberdef kind="function" id="class_naive_web_server_1_1_dispatcher_1a294f9dcd611adc770cd69dd9922e06da" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void NaiveWebServer.Dispatcher.RouteToWebApp</definition>
+        <argsstring>(HttpContext httpContext)</argsstring>
+        <name>RouteToWebApp</name>
+        <param>
+          <type><ref refid="class_naive_web_server_1_1_http_context" kindref="compound">HttpContext</ref></type>
+          <declname>httpContext</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/pakadam/source/repos/NaiveWebServer/NaiveWebServer/Middleware/Dispatcher.cs" line="17" column="1" bodyfile="C:/Users/pakadam/source/repos/NaiveWebServer/NaiveWebServer/Middleware/Dispatcher.cs" bodystart="17" bodyend="23"/>
+      </memberdef>
+      <memberdef kind="function" id="class_naive_web_server_1_1_dispatcher_1a48a6f08a665335daf25b12cf1927b1cf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void NaiveWebServer.Dispatcher.SendInvalidWebAppResponse</definition>
+        <argsstring>(HttpContext httpContext)</argsstring>
+        <name>SendInvalidWebAppResponse</name>
+        <param>
+          <type><ref refid="class_naive_web_server_1_1_http_context" kindref="compound">HttpContext</ref></type>
+          <declname>httpContext</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/pakadam/source/repos/NaiveWebServer/NaiveWebServer/Middleware/Dispatcher.cs" line="26" column="1" bodyfile="C:/Users/pakadam/source/repos/NaiveWebServer/NaiveWebServer/Middleware/Dispatcher.cs" bodystart="26" bodyend="30"/>
+      </memberdef>
+      <memberdef kind="function" id="class_naive_web_server_1_1_dispatcher_1a88406fdefa16928b702d0fd801831f57" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void NaiveWebServer.Dispatcher.CreateInvalidResponse</definition>
+        <argsstring>(string parameter)</argsstring>
+        <name>CreateInvalidResponse</name>
+        <param>
+          <type>string</type>
+          <declname>parameter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/pakadam/source/repos/NaiveWebServer/NaiveWebServer/Middleware/Dispatcher.cs" line="33" column="1" bodyfile="C:/Users/pakadam/source/repos/NaiveWebServer/NaiveWebServer/Middleware/Dispatcher.cs" bodystart="33" bodyend="36"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="11">
+        <label>NaiveWebServer.WebAppsHandler</label>
+        <link refid="class_naive_web_server_1_1_web_apps_handler"/>
+      </node>
+      <node id="10">
+        <label>NaiveWebServer.Dispatcher</label>
+        <link refid="class_naive_web_server_1_1_dispatcher"/>
+        <childnode refid="11" relation="usage">
+          <edgelabel>webAppsHandler</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/pakadam/source/repos/NaiveWebServer/NaiveWebServer/Middleware/Dispatcher.cs" line="9" column="1" bodyfile="C:/Users/pakadam/source/repos/NaiveWebServer/NaiveWebServer/Middleware/Dispatcher.cs" bodystart="8" bodyend="37"/>
+    <listofallmembers>
+      <member refid="class_naive_web_server_1_1_dispatcher_1a88406fdefa16928b702d0fd801831f57" prot="public" virt="non-virtual"><scope>NaiveWebServer::Dispatcher</scope><name>CreateInvalidResponse</name></member>
+      <member refid="class_naive_web_server_1_1_dispatcher_1a84f7d10c7c1752c290b67f0bead6f7db" prot="public" virt="non-virtual"><scope>NaiveWebServer::Dispatcher</scope><name>Dispatcher</name></member>
+      <member refid="class_naive_web_server_1_1_dispatcher_1a294f9dcd611adc770cd69dd9922e06da" prot="public" virt="non-virtual"><scope>NaiveWebServer::Dispatcher</scope><name>RouteToWebApp</name></member>
+      <member refid="class_naive_web_server_1_1_dispatcher_1a48a6f08a665335daf25b12cf1927b1cf" prot="public" virt="non-virtual"><scope>NaiveWebServer::Dispatcher</scope><name>SendInvalidWebAppResponse</name></member>
+      <member refid="class_naive_web_server_1_1_dispatcher_1ad8886e0187635f7eebf0408943db727b" prot="public" virt="non-virtual"><scope>NaiveWebServer::Dispatcher</scope><name>webAppsHandler</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

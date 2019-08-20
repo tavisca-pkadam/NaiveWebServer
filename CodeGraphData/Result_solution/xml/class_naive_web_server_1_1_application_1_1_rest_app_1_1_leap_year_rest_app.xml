@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_naive_web_server_1_1_application_1_1_rest_app_1_1_leap_year_rest_app" kind="class" prot="public">
+    <compoundname>NaiveWebServer::Application::RestApp::LeapYearRestApp</compoundname>
+    <basecompoundref refid="interface_naive_web_server_1_1_application_1_1_i_rest_app" prot="public" virt="non-virtual">NaiveWebServer.Application.IRestApp</basecompoundref>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="45">
+        <label>IRestApp</label>
+        <link refid="interface_naive_web_server_1_1_application_1_1_i_rest_app"/>
+      </node>
+      <node id="44">
+        <label>NaiveWebServer.Application.RestApp.LeapYearRestApp</label>
+        <link refid="class_naive_web_server_1_1_application_1_1_rest_app_1_1_leap_year_rest_app"/>
+        <childnode refid="45" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="47">
+        <label>IRestApp</label>
+        <link refid="interface_naive_web_server_1_1_application_1_1_i_rest_app"/>
+      </node>
+      <node id="46">
+        <label>NaiveWebServer.Application.RestApp.LeapYearRestApp</label>
+        <link refid="class_naive_web_server_1_1_application_1_1_rest_app_1_1_leap_year_rest_app"/>
+        <childnode refid="47" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/pakadam/source/repos/NaiveWebServer/NaiveWebServer/Application/RestApp/LeapYearRestApp.cs" line="4" column="1" bodyfile="C:/Users/pakadam/source/repos/NaiveWebServer/NaiveWebServer/Application/RestApp/LeapYearRestApp.cs" bodystart="3" bodyend="32"/>
+    <listofallmembers>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

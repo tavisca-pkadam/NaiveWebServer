@@ -1,0 +1,297 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.6">
+  <compound refid="class_naive_web_server_1_1_app_handler_strategy" kind="class"><name>NaiveWebServer::AppHandlerStrategy</name>
+    <member refid="class_naive_web_server_1_1_app_handler_strategy_1ada54c377065f4e58c062a98bf25d268c" kind="function"><name>GetHandler</name></member>
+    <member refid="class_naive_web_server_1_1_app_handler_strategy_1ab09bc7efdff50b9418fee543967220e7" kind="function"><name>GetTypesInNamespace</name></member>
+  </compound>
+  <compound refid="class_naive_web_server_1_1_connection" kind="class"><name>NaiveWebServer::Connection</name>
+    <member refid="class_naive_web_server_1_1_connection_1ac3261732548e8aa5c4276634d9118b65" kind="variable"><name>_serverConfiguration</name></member>
+    <member refid="class_naive_web_server_1_1_connection_1a1c8ce7b4fdbb61c71e903c0539fecf3c" kind="variable"><name>_serverListener</name></member>
+    <member refid="class_naive_web_server_1_1_connection_1a4f3e26ea042e38fc3e65d5852b016e83" kind="variable"><name>listenerThread</name></member>
+    <member refid="class_naive_web_server_1_1_connection_1a84741bf628dfc713e0961e681340f220" kind="event"><name>OnNewClientConnection</name></member>
+    <member refid="class_naive_web_server_1_1_connection_1a89e0f9c998072cc4ac9636bf75da9f0e" kind="function"><name>Connection</name></member>
+    <member refid="class_naive_web_server_1_1_connection_1a16c9cff503225bb107245e5f4bcd302b" kind="function"><name>TryStartListening</name></member>
+    <member refid="class_naive_web_server_1_1_connection_1adbd0dbb3b50f0fc82ba2c7342e48c05a" kind="function"><name>KeepAcceptingClients</name></member>
+    <member refid="class_naive_web_server_1_1_connection_1a90891d4a73d11730a74c663eff7b0f8b" kind="function"><name>TryStopListening</name></member>
+  </compound>
+  <compound refid="class_test_naive_web_server_1_1_connection_fixture" kind="class"><name>TestNaiveWebServer::ConnectionFixture</name>
+    <member refid="class_test_naive_web_server_1_1_connection_fixture_1af14addb5aa43e6196cd8eb6b7f39eccd" kind="variable"><name>connection</name></member>
+    <member refid="class_test_naive_web_server_1_1_connection_fixture_1a274149f941f4963a425283c97b3aa545" kind="function"><name>ConnectionFixture</name></member>
+    <member refid="class_test_naive_web_server_1_1_connection_fixture_1ae7e40edaceff0e7405d3658d584c0378" kind="function"><name>TryToStartListening</name></member>
+    <member refid="class_test_naive_web_server_1_1_connection_fixture_1a475e3de0e6975db5338ec90f2bc30a6b" kind="function"><name>TryToStopLitening</name></member>
+  </compound>
+  <compound refid="class_naive_web_server_1_1_dispatcher" kind="class"><name>NaiveWebServer::Dispatcher</name>
+    <member refid="class_naive_web_server_1_1_dispatcher_1ad8886e0187635f7eebf0408943db727b" kind="variable"><name>webAppsHandler</name></member>
+    <member refid="class_naive_web_server_1_1_dispatcher_1a84f7d10c7c1752c290b67f0bead6f7db" kind="function"><name>Dispatcher</name></member>
+    <member refid="class_naive_web_server_1_1_dispatcher_1a294f9dcd611adc770cd69dd9922e06da" kind="function"><name>RouteToWebApp</name></member>
+    <member refid="class_naive_web_server_1_1_dispatcher_1a48a6f08a665335daf25b12cf1927b1cf" kind="function"><name>SendInvalidWebAppResponse</name></member>
+    <member refid="class_naive_web_server_1_1_dispatcher_1a88406fdefa16928b702d0fd801831f57" kind="function"><name>CreateInvalidResponse</name></member>
+  </compound>
+  <compound refid="class_naive_web_server_1_1_extension" kind="class"><name>NaiveWebServer::Extension</name>
+  </compound>
+  <compound refid="class_naive_web_server_1_1_file_reader" kind="class"><name>NaiveWebServer::FileReader</name>
+    <member refid="class_naive_web_server_1_1_file_reader_1a92ccdfbb6baf9c69d7115f9a3431c2a0" kind="function"><name>ReadFile</name></member>
+    <member refid="class_naive_web_server_1_1_file_reader_1a2fa61a7d3ff92181739ff327ad3622e7" kind="function"><name>InvalidFileResponse</name></member>
+  </compound>
+  <compound refid="class_naive_web_server_1_1_http_context" kind="class"><name>NaiveWebServer::HttpContext</name>
+    <member refid="class_naive_web_server_1_1_http_context_1a00283be234bd1dc89af619218a548681" kind="variable"><name>client</name></member>
+    <member refid="class_naive_web_server_1_1_http_context_1aa47d220af2126b6e965c967faffa0a0e" kind="variable"><name>networkStream</name></member>
+    <member refid="class_naive_web_server_1_1_http_context_1aea28e4758b080ac285137837a99ca7d0" kind="variable"><name>request</name></member>
+    <member refid="class_naive_web_server_1_1_http_context_1a173617da4d2b71cb9be0be4a70c7904a" kind="variable"><name>response</name></member>
+    <member refid="class_naive_web_server_1_1_http_context_1acfa0788da5bcc1fe28df99a3055a15d3" kind="function"><name>HttpContext</name></member>
+  </compound>
+  <compound refid="class_naive_web_server_1_1_http_request" kind="class"><name>NaiveWebServer::HttpRequest</name>
+    <member refid="class_naive_web_server_1_1_http_request_1a860c8a6ac972c6113598bb071ad73d71" kind="property"><name>methodType</name></member>
+    <member refid="class_naive_web_server_1_1_http_request_1a95c91deff8b185267c2201e03ae70cfa" kind="property"><name>location</name></member>
+    <member refid="class_naive_web_server_1_1_http_request_1a6410ea1eb841307f38072c1b602ac882" kind="property"><name>body</name></member>
+    <member refid="class_naive_web_server_1_1_http_request_1a7f484a035dd28e41d52a915e323c07fc" kind="property"><name>httpVersion</name></member>
+    <member refid="class_naive_web_server_1_1_http_request_1a50f2cd2d3d1e72849f5a3a2de46de5c1" kind="variable"><name>tokens</name></member>
+    <member refid="class_naive_web_server_1_1_http_request_1af8601c851a99fd803222e9e2db20ca44" kind="function"><name>HttpRequest</name></member>
+    <member refid="class_naive_web_server_1_1_http_request_1acb3d2505861c7803517c3537373e0278" kind="function"><name>ParseRequestData</name></member>
+  </compound>
+  <compound refid="class_naive_web_server_1_1_http_response" kind="class"><name>NaiveWebServer::HttpResponse</name>
+    <member refid="class_naive_web_server_1_1_http_response_1a98d3d160bef9d8326a9c38164588ffd6" kind="variable"><name>httpVersion</name></member>
+    <member refid="class_naive_web_server_1_1_http_response_1a0fd3852e69ce73eb936a89650a3997bb" kind="variable"><name>httpStatusCode</name></member>
+    <member refid="class_naive_web_server_1_1_http_response_1aab654b6e9520dd3d9a32b266f89a3689" kind="variable"><name>contentType</name></member>
+    <member refid="class_naive_web_server_1_1_http_response_1aab6372f57719360950ff799a33705c18" kind="variable"><name>contentLength</name></member>
+    <member refid="class_naive_web_server_1_1_http_response_1a63b6e290bf329b525abbba3e1ec5fe11" kind="variable"><name>body</name></member>
+    <member refid="class_naive_web_server_1_1_http_response_1afc3a10c21dcc21b75287bf0833ab1973" kind="variable"><name>byteBody</name></member>
+    <member refid="class_naive_web_server_1_1_http_response_1a5319c196884c8091818fdc1a3c5ea452" kind="function"><name>UpdateBody</name></member>
+    <member refid="class_naive_web_server_1_1_http_response_1a91d7a29e546990c6c9631a2ecb17f040" kind="function"><name>ToBytes</name></member>
+  </compound>
+  <compound refid="interface_naive_web_server_1_1_i_app_handler" kind="interface"><name>NaiveWebServer::IAppHandler</name>
+    <member refid="interface_naive_web_server_1_1_i_app_handler_1aff155b2768b0f3807e88bb75d22357c4" kind="function"><name>HandleRequest</name></member>
+    <member refid="interface_naive_web_server_1_1_i_app_handler_1a30dc8c42713fabc8a14e5684de114447" kind="function"><name>SendResponse</name></member>
+    <member refid="interface_naive_web_server_1_1_i_app_handler_1a357e1f9e55ccdcfe77170bab39cc720f" kind="function"><name>SendInvalidResponse</name></member>
+  </compound>
+  <compound refid="interface_naive_web_server_1_1_i_http_status_code" kind="interface"><name>NaiveWebServer::IHttpStatusCode</name>
+  </compound>
+  <compound refid="class_naive_web_server_1_1_i_request" kind="class"><name>NaiveWebServer::IRequest</name>
+  </compound>
+  <compound refid="class_naive_web_server_1_1_i_response" kind="class"><name>NaiveWebServer::IResponse</name>
+  </compound>
+  <compound refid="interface_naive_web_server_1_1_i_rest_app" kind="interface"><name>NaiveWebServer::IRestApp</name>
+    <member refid="interface_naive_web_server_1_1_i_rest_app_1aad5fd79e1719b302542480541e940fd9" kind="function"><name>MatchRequestTypeToFunction</name></member>
+  </compound>
+  <compound refid="class_naive_web_server_1_1_leap_year_rest_app" kind="class"><name>NaiveWebServer::LeapYearRestApp</name>
+    <member refid="class_naive_web_server_1_1_leap_year_rest_app_1a68155062ad5cf8f5bed842d13efd106f" kind="variable"><name>listOfMethods</name></member>
+    <member refid="class_naive_web_server_1_1_leap_year_rest_app_1a3e1a7f0997027e3d559cd997b97462e8" kind="function"><name>LeapYearRestApp</name></member>
+    <member refid="class_naive_web_server_1_1_leap_year_rest_app_1a24bf9540da25f7be24febe3eb6661860" kind="function"><name>MatchRequestTypeToFunction</name></member>
+    <member refid="class_naive_web_server_1_1_leap_year_rest_app_1a7882a63d45b0ac0c16417f955fb51a58" kind="function"><name>GetLeapYear</name></member>
+    <member refid="class_naive_web_server_1_1_leap_year_rest_app_1a645f34574f321691fde4f396c8c2abf3" kind="function"><name>PostIsALeapYear</name></member>
+  </compound>
+  <compound refid="class_naive_web_server_1_1_location" kind="class"><name>NaiveWebServer::Location</name>
+  </compound>
+  <compound refid="class_naive_web_server_1_1_application_1_1_mime_types" kind="class"><name>NaiveWebServer::Application::MimeTypes</name>
+    <member refid="class_naive_web_server_1_1_application_1_1_mime_types_1a385e7dab2f031a5576e168ba08aa3d43" kind="variable"><name>MIMETypesDictionary</name></member>
+    <member refid="class_naive_web_server_1_1_application_1_1_mime_types_1ab5eaadede1645c5af8fad0b407482040" kind="function"><name>GetMIMEType</name></member>
+  </compound>
+  <compound refid="class_naive_web_server_console_1_1_program" kind="class"><name>NaiveWebServerConsole::Program</name>
+    <member refid="class_naive_web_server_console_1_1_program_1aa2bb9487ad4468d01c129d8722d2bee1" kind="function"><name>Main</name></member>
+  </compound>
+  <compound refid="class_naive_web_server_1_1_rest_api_handler" kind="class"><name>NaiveWebServer::RestApiHandler</name>
+    <member refid="class_naive_web_server_1_1_rest_api_handler_1aa9ab7507c82c5898b5c9f8ae264eca74" kind="variable"><name>restApp</name></member>
+    <member refid="class_naive_web_server_1_1_rest_api_handler_1aae59e39c5f5a655d80e81dd9b0af6bb6" kind="variable"><name>directory</name></member>
+    <member refid="class_naive_web_server_1_1_rest_api_handler_1a97f6544545986d346d7dc8649ef87641" kind="function"><name>RestApiHandler</name></member>
+    <member refid="class_naive_web_server_1_1_rest_api_handler_1a4c2ea4eee0c53762794a44a61bd8b7ad" kind="function"><name>HandleRequest</name></member>
+    <member refid="class_naive_web_server_1_1_rest_api_handler_1afac7a60978c684eede6e20811c0fa776" kind="function"><name>SendResponse</name></member>
+    <member refid="class_naive_web_server_1_1_rest_api_handler_1abfe5a03d5cfa656ec359484667a45eb2" kind="function"><name>SendInvalidResponse</name></member>
+    <member refid="class_naive_web_server_1_1_rest_api_handler_1ad2f82892a658d7feee005f2ced8a78dc" kind="function"><name>RequestType</name></member>
+  </compound>
+  <compound refid="class_naive_web_server_1_1_server_configuration" kind="class"><name>NaiveWebServer::ServerConfiguration</name>
+    <member refid="class_naive_web_server_1_1_server_configuration_1abf01674dc8679f101ab7af304e6717e0" kind="variable"><name>server_domain</name></member>
+    <member refid="class_naive_web_server_1_1_server_configuration_1a3c23a42d5d8491a26c66382d2065f727" kind="variable"><name>server_port</name></member>
+  </compound>
+  <compound refid="class_naive_web_server_1_1_server_gateway" kind="class"><name>NaiveWebServer::ServerGateway</name>
+    <member refid="class_naive_web_server_1_1_server_gateway_1a8a7ae239fbc1b5b44fc51b7ea4fc96f6" kind="variable"><name>connection</name></member>
+    <member refid="class_naive_web_server_1_1_server_gateway_1a43262f3bfab73d0aebd54c889ec5a5e2" kind="variable"><name>dispatcher</name></member>
+    <member refid="class_naive_web_server_1_1_server_gateway_1ae87752f3db9e2e29b922a272ea8e88c7" kind="function"><name>ServerGateway</name></member>
+    <member refid="class_naive_web_server_1_1_server_gateway_1ac1fdf4107b8f90a4e3af285e3d33d5bf" kind="function"><name>Enable</name></member>
+    <member refid="class_naive_web_server_1_1_server_gateway_1aa0f35a2259cdc12359ae41bfcbd9c8db" kind="function"><name>Disable</name></member>
+    <member refid="class_naive_web_server_1_1_server_gateway_1a037403a5ff4bff942bb24ca45567a94b" kind="function"><name>HandleNewSocketConnection</name></member>
+    <member refid="class_naive_web_server_1_1_server_gateway_1ae1d0c69d257a40f1f74970425f4e27be" kind="function"><name>NewSocketConnectionToHttpContext</name></member>
+    <member refid="class_naive_web_server_1_1_server_gateway_1a64445b6a8e31fde3a6cace57abb2a768" kind="function"><name>ForwardSocketToDispatcher</name></member>
+  </compound>
+  <compound refid="class_test_naive_web_server_1_1_server_gateway_fixture" kind="class"><name>TestNaiveWebServer::ServerGatewayFixture</name>
+  </compound>
+  <compound refid="class_naive_web_server_1_1_static_app_handler" kind="class"><name>NaiveWebServer::StaticAppHandler</name>
+    <member refid="class_naive_web_server_1_1_static_app_handler_1a9bd92220d5c8eb2da17263420306529f" kind="variable"><name>directory</name></member>
+    <member refid="class_naive_web_server_1_1_static_app_handler_1a9260c187aa519f25960047a3d60c5f66" kind="variable"><name>fileReader</name></member>
+    <member refid="class_naive_web_server_1_1_static_app_handler_1ac5d8e5d5cd827394310c54d9f615585d" kind="function"><name>StaticAppHandler</name></member>
+    <member refid="class_naive_web_server_1_1_static_app_handler_1a75def660c1d6b96519720445d2b8b576" kind="function"><name>ValidateLocation</name></member>
+    <member refid="class_naive_web_server_1_1_static_app_handler_1ac4193ca5b11b5f9f29bea1ad257a939b" kind="function"><name>HandleRequest</name></member>
+    <member refid="class_naive_web_server_1_1_static_app_handler_1a981107d5a42605cbac57d95b529ebb50" kind="function"><name>SendResponse</name></member>
+    <member refid="class_naive_web_server_1_1_static_app_handler_1a70d7b85875af46550758c781ff185a99" kind="function"><name>SendInvalidResponse</name></member>
+  </compound>
+  <compound refid="class_naive_web_server_1_1_sucess_status_code" kind="class"><name>NaiveWebServer::SucessStatusCode</name>
+  </compound>
+  <compound refid="class_test_naive_web_server_1_1_unit_test1" kind="class"><name>TestNaiveWebServer::UnitTest1</name>
+    <member refid="class_test_naive_web_server_1_1_unit_test1_1ae5fb2c165399ab1a6f9a4724654145fe" kind="function"><name>Test1</name></member>
+  </compound>
+  <compound refid="class_naive_web_server_1_1_web_app" kind="class"><name>NaiveWebServer::WebApp</name>
+    <member refid="class_naive_web_server_1_1_web_app_1ac44ec1af6e416780f47f76765d1eace1" kind="variable"><name>name</name></member>
+    <member refid="class_naive_web_server_1_1_web_app_1a87fa67190fd8234d54092539bb3fc4b4" kind="variable"><name>location</name></member>
+    <member refid="class_naive_web_server_1_1_web_app_1a2cfb176f5b8885cd1bde8fc78ceb9b3b" kind="variable"><name>directory</name></member>
+    <member refid="class_naive_web_server_1_1_web_app_1a4976fcd8ce5a6a2c82af8d9487b835a9" kind="variable"><name>appHandler</name></member>
+    <member refid="class_naive_web_server_1_1_web_app_1a6b3439b18761003ab13738a1945ec96d" kind="function"><name>WebApp</name></member>
+    <member refid="class_naive_web_server_1_1_web_app_1a9df33485ce0e6a61a15f305a6d6cdbed" kind="function"><name>ForwardRequestToHandler</name></member>
+  </compound>
+  <compound refid="class_naive_web_server_1_1_web_apps_handler" kind="class"><name>NaiveWebServer::WebAppsHandler</name>
+    <member refid="class_naive_web_server_1_1_web_apps_handler_1a509ed32bcbe8cd01f439baf644675309" kind="variable"><name>webAppList</name></member>
+    <member refid="class_naive_web_server_1_1_web_apps_handler_1aaa084746f487cba1c0fc315af93e9ae2" kind="function"><name>WebAppsHandler</name></member>
+    <member refid="class_naive_web_server_1_1_web_apps_handler_1a05dee380cb44cff783017342b50695fd" kind="function"><name>Add</name></member>
+    <member refid="class_naive_web_server_1_1_web_apps_handler_1ae4bd1b91c21428f99e8533a8bd7a58e4" kind="function"><name>GetWebAppByLocation</name></member>
+  </compound>
+  <compound refid="class_test_naive_web_server_1_1_web_apps_handler_fixture" kind="class"><name>TestNaiveWebServer::WebAppsHandlerFixture</name>
+    <member refid="class_test_naive_web_server_1_1_web_apps_handler_fixture_1a34afcf0634262ab3b1576cf33ba3cce4" kind="variable"><name>webAppsHandler</name></member>
+    <member refid="class_test_naive_web_server_1_1_web_apps_handler_fixture_1a4a20332138c7b424808e5be43fdaff4c" kind="function"><name>WebAppsHandlerFixture</name></member>
+    <member refid="class_test_naive_web_server_1_1_web_apps_handler_fixture_1a5ac93f5c707a6e181e33a1fda2778d10" kind="function"><name>Adding_WebApp_to_WebApp_List</name></member>
+    <member refid="class_test_naive_web_server_1_1_web_apps_handler_fixture_1ac37d8296220587701319317d5f6c668c" kind="function"><name>GetWebAppByLocation_returns_WebApp</name></member>
+  </compound>
+  <compound refid="class_naive_web_server_1_1_web_server" kind="class"><name>NaiveWebServer::WebServer</name>
+    <member refid="class_naive_web_server_1_1_web_server_1a9f0d9efea455a39013df314da21fb34a" kind="variable"><name>serverGateway</name></member>
+    <member refid="class_naive_web_server_1_1_web_server_1ad5ee0bb7f2e4d31c322b73cc5b511165" kind="variable"><name>connection</name></member>
+    <member refid="class_naive_web_server_1_1_web_server_1a850cb77d78de01739e73eb02628047b6" kind="variable"><name>serverConfiguration</name></member>
+    <member refid="class_naive_web_server_1_1_web_server_1a1509de1001bb00d279db327db887c815" kind="variable"><name>dispatcher</name></member>
+    <member refid="class_naive_web_server_1_1_web_server_1ab8b5f7dd80e21878f95dc271c6fff8c2" kind="variable"><name>webAppsHandler</name></member>
+    <member refid="class_naive_web_server_1_1_web_server_1a2a1cd6a081ba78cb185ba99cb47758e9" kind="function"><name>WebServer</name></member>
+    <member refid="class_naive_web_server_1_1_web_server_1a8c6a8b238ace10805815ba433ccd9c14" kind="function"><name>Start</name></member>
+    <member refid="class_naive_web_server_1_1_web_server_1ac3717ba2fed72ec60138dddebcc813b1" kind="function"><name>Stop</name></member>
+  </compound>
+  <compound refid="namespace_fluent_assertions" kind="namespace"><name>FluentAssertions</name>
+  </compound>
+  <compound refid="namespace_naive_web_server" kind="namespace"><name>NaiveWebServer</name>
+    <member refid="namespace_naive_web_server_1a7422d1d2786c758baccbe8f1a3776711" kind="enum"><name>HttpRequestHeaders</name></member>
+    <member refid="namespace_naive_web_server_1a563abe00bc3d96943115e971c3bd8b14" kind="enum"><name>RequestType</name></member>
+    <member refid="namespace_naive_web_server_1a563abe00bc3d96943115e971c3bd8b14ac55582518cba2c464f29f5bae1c68def" kind="enumvalue"><name>Get</name></member>
+    <member refid="namespace_naive_web_server_1a563abe00bc3d96943115e971c3bd8b14a03d947a2158373c3b9d74325850cb8b9" kind="enumvalue"><name>Post</name></member>
+    <member refid="namespace_naive_web_server_1a563abe00bc3d96943115e971c3bd8b14ad0bf1810982e9728fcf3ac444a015373" kind="enumvalue"><name>Put</name></member>
+    <member refid="namespace_naive_web_server_1a563abe00bc3d96943115e971c3bd8b14a054b4f3ea543c990f6b125f41af6ebf7" kind="enumvalue"><name>Option</name></member>
+  </compound>
+  <compound refid="namespace_naive_web_server_1_1_application" kind="namespace"><name>NaiveWebServer::Application</name>
+  </compound>
+  <compound refid="namespace_naive_web_server_console" kind="namespace"><name>NaiveWebServerConsole</name>
+  </compound>
+  <compound refid="namespace_newtonsoft_1_1_json" kind="namespace"><name>Newtonsoft::Json</name>
+  </compound>
+  <compound refid="namespace_newtonsoft_1_1_json_1_1_linq" kind="namespace"><name>Newtonsoft::Json::Linq</name>
+  </compound>
+  <compound refid="namespace_system" kind="namespace"><name>System</name>
+  </compound>
+  <compound refid="namespace_system_1_1_collections_1_1_generic" kind="namespace"><name>System::Collections::Generic</name>
+  </compound>
+  <compound refid="namespace_system_1_1_diagnostics" kind="namespace"><name>System::Diagnostics</name>
+  </compound>
+  <compound refid="namespace_system_1_1_i_o" kind="namespace"><name>System::IO</name>
+  </compound>
+  <compound refid="namespace_system_1_1_linq" kind="namespace"><name>System::Linq</name>
+  </compound>
+  <compound refid="namespace_system_1_1_linq_1_1_expressions" kind="namespace"><name>System::Linq::Expressions</name>
+  </compound>
+  <compound refid="namespace_system_1_1_net" kind="namespace"><name>System::Net</name>
+  </compound>
+  <compound refid="namespace_system_1_1_net_1_1_sockets" kind="namespace"><name>System::Net::Sockets</name>
+  </compound>
+  <compound refid="namespace_system_1_1_reflection" kind="namespace"><name>System::Reflection</name>
+  </compound>
+  <compound refid="namespace_system_1_1_runtime_1_1_serialization" kind="namespace"><name>System::Runtime::Serialization</name>
+  </compound>
+  <compound refid="namespace_system_1_1_text" kind="namespace"><name>System::Text</name>
+  </compound>
+  <compound refid="namespace_system_1_1_text_1_1_regular_expressions" kind="namespace"><name>System::Text::RegularExpressions</name>
+  </compound>
+  <compound refid="namespace_system_1_1_threading" kind="namespace"><name>System::Threading</name>
+  </compound>
+  <compound refid="namespace_system_1_1_threading_1_1_tasks" kind="namespace"><name>System::Threading::Tasks</name>
+  </compound>
+  <compound refid="namespace_test_naive_web_server" kind="namespace"><name>TestNaiveWebServer</name>
+  </compound>
+  <compound refid="namespace_xunit" kind="namespace"><name>Xunit</name>
+  </compound>
+  <compound refid="_app_handler_strategy_8cs" kind="file"><name>AppHandlerStrategy.cs</name>
+  </compound>
+  <compound refid="_file_reader_8cs" kind="file"><name>FileReader.cs</name>
+  </compound>
+  <compound refid="_i_app_handler_8cs" kind="file"><name>IAppHandler.cs</name>
+  </compound>
+  <compound refid="_location_8cs" kind="file"><name>Location.cs</name>
+  </compound>
+  <compound refid="_mime_types_8cs" kind="file"><name>MimeTypes.cs</name>
+  </compound>
+  <compound refid="_rest_api_handler_8cs" kind="file"><name>RestApiHandler.cs</name>
+  </compound>
+  <compound refid="_i_rest_app_8cs" kind="file"><name>IRestApp.cs</name>
+  </compound>
+  <compound refid="_leap_year_rest_app_8cs" kind="file"><name>LeapYearRestApp.cs</name>
+  </compound>
+  <compound refid="_static_app_handler_8cs" kind="file"><name>StaticAppHandler.cs</name>
+  </compound>
+  <compound refid="_web_app_8cs" kind="file"><name>WebApp.cs</name>
+  </compound>
+  <compound refid="_web_apps_handler_8cs" kind="file"><name>WebAppsHandler.cs</name>
+  </compound>
+  <compound refid="_connection_8cs" kind="file"><name>Connection.cs</name>
+  </compound>
+  <compound refid="_server_configuration_8cs" kind="file"><name>ServerConfiguration.cs</name>
+  </compound>
+  <compound refid="_server_gateway_8cs" kind="file"><name>ServerGateway.cs</name>
+  </compound>
+  <compound refid="_web_server_8cs" kind="file"><name>WebServer.cs</name>
+  </compound>
+  <compound refid="_extension_8cs" kind="file"><name>Extension.cs</name>
+  </compound>
+  <compound refid="_http_context_8cs" kind="file"><name>HttpContext.cs</name>
+  </compound>
+  <compound refid="_http_request_8cs" kind="file"><name>HttpRequest.cs</name>
+  </compound>
+  <compound refid="_http_response_8cs" kind="file"><name>HttpResponse.cs</name>
+  </compound>
+  <compound refid="_i_http_status_code_8cs" kind="file"><name>IHttpStatusCode.cs</name>
+  </compound>
+  <compound refid="_i_request_8cs" kind="file"><name>IRequest.cs</name>
+  </compound>
+  <compound refid="_i_response_8cs" kind="file"><name>IResponse.cs</name>
+  </compound>
+  <compound refid="_request_type_8cs" kind="file"><name>RequestType.cs</name>
+  </compound>
+  <compound refid="_sucess_status_code_8cs" kind="file"><name>SucessStatusCode.cs</name>
+  </compound>
+  <compound refid="_dispatcher_8cs" kind="file"><name>Dispatcher.cs</name>
+  </compound>
+  <compound refid="_program_8cs" kind="file"><name>Program.cs</name>
+  </compound>
+  <compound refid="_connection_fixture_8cs" kind="file"><name>ConnectionFixture.cs</name>
+  </compound>
+  <compound refid="_server_gateway_fixture_8cs" kind="file"><name>ServerGatewayFixture.cs</name>
+  </compound>
+  <compound refid="_unit_test1_8cs" kind="file"><name>UnitTest1.cs</name>
+  </compound>
+  <compound refid="_web_apps_handler_fixture_8cs" kind="file"><name>WebAppsHandlerFixture.cs</name>
+  </compound>
+  <compound refid="dir_d44d12fa728671a62f5921314973bc03" kind="dir"><name>C:/Users/pakadam/source/repos/NaiveWebServer/NaiveWebServer/Application</name>
+  </compound>
+  <compound refid="dir_73311ba94bb38c7083f8d668c59a5e09" kind="dir"><name>C:/Users/pakadam/source/repos/NaiveWebServer/NaiveWebServer/Core</name>
+  </compound>
+  <compound refid="dir_da6b7b1617473fe23b4da309fdd8f0ac" kind="dir"><name>C:/Users/pakadam/source/repos/NaiveWebServer/NaiveWebServer/Http</name>
+  </compound>
+  <compound refid="dir_bff7ae5cc27508fa497bba06ca4dfa3f" kind="dir"><name>C:/Users/pakadam/source/repos/NaiveWebServer/NaiveWebServer/Middleware</name>
+  </compound>
+  <compound refid="dir_86ba982085ec41d68336c9a4954293c6" kind="dir"><name>C:/Users/pakadam/source/repos/NaiveWebServer/NaiveWebServer</name>
+  </compound>
+  <compound refid="dir_bfa22011e2e1ed38cd20e678833f95fd" kind="dir"><name>C:/Users/pakadam/source/repos/NaiveWebServer</name>
+  </compound>
+  <compound refid="dir_690cbc2646cc1db34ae51917df109e20" kind="dir"><name>C:/Users/pakadam/source/repos/NaiveWebServer/NaiveWebServerConsole</name>
+  </compound>
+  <compound refid="dir_45c660bdc37489fc58ff3613ef81eabd" kind="dir"><name>C:/Users/pakadam</name>
+  </compound>
+  <compound refid="dir_5dfe601c3b0ec127303b2903fd6cf7a2" kind="dir"><name>C:/Users/pakadam/source/repos</name>
+  </compound>
+  <compound refid="dir_95bc6f7509955015c8fe2147fd6bbee8" kind="dir"><name>C:/Users/pakadam/source/repos/NaiveWebServer/NaiveWebServer/Application/RestApp</name>
+  </compound>
+  <compound refid="dir_bad5ea18e50f771dcb0826c3b5450f03" kind="dir"><name>C:/Users/pakadam/source</name>
+  </compound>
+  <compound refid="dir_45267100830b13584a93c566bdec1728" kind="dir"><name>C:/Users/pakadam/source/repos/NaiveWebServer/TestNaiveWebServer</name>
+  </compound>
+  <compound refid="dir_8ceffd4ee35c3518d4e8bdc7e638efe8" kind="dir"><name>C:/Users</name>
+  </compound>
+</doxygenindex>

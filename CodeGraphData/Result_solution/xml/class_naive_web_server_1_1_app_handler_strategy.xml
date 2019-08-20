@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_naive_web_server_1_1_app_handler_strategy" kind="class" prot="public">
+    <compoundname>NaiveWebServer::AppHandlerStrategy</compoundname>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_naive_web_server_1_1_app_handler_strategy_1ada54c377065f4e58c062a98bf25d268c" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="interface_naive_web_server_1_1_i_app_handler" kindref="compound">IAppHandler</ref></type>
+        <definition>static IAppHandler NaiveWebServer.AppHandlerStrategy.GetHandler</definition>
+        <argsstring>(string appType, string directory)</argsstring>
+        <name>GetHandler</name>
+        <param>
+          <type>string</type>
+          <declname>appType</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>directory</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/pakadam/source/repos/NaiveWebServer/NaiveWebServer/Application/AppHandlerStrategy.cs" line="20" column="1" bodyfile="C:/Users/pakadam/source/repos/NaiveWebServer/NaiveWebServer/Application/AppHandlerStrategy.cs" bodystart="20" bodyend="48"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_naive_web_server_1_1_app_handler_strategy_1ab09bc7efdff50b9418fee543967220e7" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Type[]</type>
+        <definition>static Type [] NaiveWebServer.AppHandlerStrategy.GetTypesInNamespace</definition>
+        <argsstring>(Assembly assembly, string nameSpace)</argsstring>
+        <name>GetTypesInNamespace</name>
+        <param>
+          <type>Assembly</type>
+          <declname>assembly</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>nameSpace</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/pakadam/source/repos/NaiveWebServer/NaiveWebServer/Application/AppHandlerStrategy.cs" line="50" column="1" bodyfile="C:/Users/pakadam/source/repos/NaiveWebServer/NaiveWebServer/Application/AppHandlerStrategy.cs" bodystart="50" bodyend="56"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/pakadam/source/repos/NaiveWebServer/NaiveWebServer/Application/AppHandlerStrategy.cs" line="12" column="1" bodyfile="C:/Users/pakadam/source/repos/NaiveWebServer/NaiveWebServer/Application/AppHandlerStrategy.cs" bodystart="11" bodyend="57"/>
+    <listofallmembers>
+      <member refid="class_naive_web_server_1_1_app_handler_strategy_1ada54c377065f4e58c062a98bf25d268c" prot="public" virt="non-virtual"><scope>NaiveWebServer::AppHandlerStrategy</scope><name>GetHandler</name></member>
+      <member refid="class_naive_web_server_1_1_app_handler_strategy_1ab09bc7efdff50b9418fee543967220e7" prot="private" virt="non-virtual"><scope>NaiveWebServer::AppHandlerStrategy</scope><name>GetTypesInNamespace</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

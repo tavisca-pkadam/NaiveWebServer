@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_naive_web_server_1_1_application_1_1_mime_types" kind="class" prot="public">
+    <compoundname>NaiveWebServer::Application::MimeTypes</compoundname>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_naive_web_server_1_1_application_1_1_mime_types_1a385e7dab2f031a5576e168ba08aa3d43" prot="private" static="yes" mutable="no">
+        <type>readonly Dictionary&lt; string, string &gt;</type>
+        <definition>readonly Dictionary&lt;string, string&gt; NaiveWebServer.Application.MimeTypes.MIMETypesDictionary</definition>
+        <argsstring></argsstring>
+        <name>MIMETypesDictionary</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/pakadam/source/repos/NaiveWebServer/NaiveWebServer/Application/MimeTypes.cs" line="11" column="1" bodyfile="C:/Users/pakadam/source/repos/NaiveWebServer/NaiveWebServer/Application/MimeTypes.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_naive_web_server_1_1_application_1_1_mime_types_1ab5eaadede1645c5af8fad0b407482040" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>static string NaiveWebServer.Application.MimeTypes.GetMIMEType</definition>
+        <argsstring>(string fileName)</argsstring>
+        <name>GetMIMEType</name>
+        <param>
+          <type>string</type>
+          <declname>fileName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/pakadam/source/repos/NaiveWebServer/NaiveWebServer/Application/MimeTypes.cs" line="203" column="1" bodyfile="C:/Users/pakadam/source/repos/NaiveWebServer/NaiveWebServer/Application/MimeTypes.cs" bodystart="203" bodyend="215"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/pakadam/source/repos/NaiveWebServer/NaiveWebServer/Application/MimeTypes.cs" line="10" column="1" bodyfile="C:/Users/pakadam/source/repos/NaiveWebServer/NaiveWebServer/Application/MimeTypes.cs" bodystart="9" bodyend="216"/>
+    <listofallmembers>
+      <member refid="class_naive_web_server_1_1_application_1_1_mime_types_1ab5eaadede1645c5af8fad0b407482040" prot="public" virt="non-virtual"><scope>NaiveWebServer::Application::MimeTypes</scope><name>GetMIMEType</name></member>
+      <member refid="class_naive_web_server_1_1_application_1_1_mime_types_1a385e7dab2f031a5576e168ba08aa3d43" prot="private" virt="non-virtual"><scope>NaiveWebServer::Application::MimeTypes</scope><name>MIMETypesDictionary</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

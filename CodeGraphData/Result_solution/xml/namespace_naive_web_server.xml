@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="namespace_naive_web_server" kind="namespace">
+    <compoundname>NaiveWebServer</compoundname>
+    <innerclass refid="interface_naive_web_server_1_1_i_rest_app" prot="public">NaiveWebServer::IRestApp</innerclass>
+    <innerclass refid="class_naive_web_server_1_1_leap_year_rest_app" prot="public">NaiveWebServer::LeapYearRestApp</innerclass>
+    <innerclass refid="class_naive_web_server_1_1_app_handler_strategy" prot="public">NaiveWebServer::AppHandlerStrategy</innerclass>
+    <innerclass refid="class_naive_web_server_1_1_file_reader" prot="public">NaiveWebServer::FileReader</innerclass>
+    <innerclass refid="interface_naive_web_server_1_1_i_app_handler" prot="public">NaiveWebServer::IAppHandler</innerclass>
+    <innerclass refid="class_naive_web_server_1_1_location" prot="public">NaiveWebServer::Location</innerclass>
+    <innerclass refid="class_naive_web_server_1_1_rest_api_handler" prot="public">NaiveWebServer::RestApiHandler</innerclass>
+    <innerclass refid="class_naive_web_server_1_1_static_app_handler" prot="public">NaiveWebServer::StaticAppHandler</innerclass>
+    <innerclass refid="class_naive_web_server_1_1_web_app" prot="public">NaiveWebServer::WebApp</innerclass>
+    <innerclass refid="class_naive_web_server_1_1_web_apps_handler" prot="public">NaiveWebServer::WebAppsHandler</innerclass>
+    <innerclass refid="class_naive_web_server_1_1_connection" prot="public">NaiveWebServer::Connection</innerclass>
+    <innerclass refid="class_naive_web_server_1_1_server_configuration" prot="public">NaiveWebServer::ServerConfiguration</innerclass>
+    <innerclass refid="class_naive_web_server_1_1_server_gateway" prot="public">NaiveWebServer::ServerGateway</innerclass>
+    <innerclass refid="class_naive_web_server_1_1_web_server" prot="public">NaiveWebServer::WebServer</innerclass>
+    <innerclass refid="class_naive_web_server_1_1_extension" prot="public">NaiveWebServer::Extension</innerclass>
+    <innerclass refid="class_naive_web_server_1_1_http_context" prot="public">NaiveWebServer::HttpContext</innerclass>
+    <innerclass refid="class_naive_web_server_1_1_http_request" prot="public">NaiveWebServer::HttpRequest</innerclass>
+    <innerclass refid="class_naive_web_server_1_1_http_response" prot="public">NaiveWebServer::HttpResponse</innerclass>
+    <innerclass refid="interface_naive_web_server_1_1_i_http_status_code" prot="public">NaiveWebServer::IHttpStatusCode</innerclass>
+    <innerclass refid="class_naive_web_server_1_1_i_request" prot="public">NaiveWebServer::IRequest</innerclass>
+    <innerclass refid="class_naive_web_server_1_1_i_response" prot="public">NaiveWebServer::IResponse</innerclass>
+    <innerclass refid="class_naive_web_server_1_1_sucess_status_code" prot="public">NaiveWebServer::SucessStatusCode</innerclass>
+    <innerclass refid="class_naive_web_server_1_1_dispatcher" prot="public">NaiveWebServer::Dispatcher</innerclass>
+    <innernamespace refid="namespace_naive_web_server_1_1_application">NaiveWebServer::Application</innernamespace>
+      <sectiondef kind="enum">
+      <memberdef kind="enum" id="namespace_naive_web_server_1a7422d1d2786c758baccbe8f1a3776711" prot="public" static="no">
+        <name>HttpRequestHeaders</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/pakadam/source/repos/NaiveWebServer/NaiveWebServer/Http/HttpRequest.cs" line="9" column="1" bodyfile="C:/Users/pakadam/source/repos/NaiveWebServer/NaiveWebServer/Http/HttpRequest.cs" bodystart="8" bodyend="11"/>
+      </memberdef>
+      <memberdef kind="enum" id="namespace_naive_web_server_1a563abe00bc3d96943115e971c3bd8b14" prot="public" static="no">
+        <name>RequestType</name>
+        <enumvalue id="namespace_naive_web_server_1a563abe00bc3d96943115e971c3bd8b14ac55582518cba2c464f29f5bae1c68def" prot="public">
+          <name>Get</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_naive_web_server_1a563abe00bc3d96943115e971c3bd8b14a03d947a2158373c3b9d74325850cb8b9" prot="public">
+          <name>Post</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_naive_web_server_1a563abe00bc3d96943115e971c3bd8b14ad0bf1810982e9728fcf3ac444a015373" prot="public">
+          <name>Put</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_naive_web_server_1a563abe00bc3d96943115e971c3bd8b14a054b4f3ea543c990f6b125f41af6ebf7" prot="public">
+          <name>Option</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/pakadam/source/repos/NaiveWebServer/NaiveWebServer/Http/RequestType.cs" line="9" column="1" bodyfile="C:/Users/pakadam/source/repos/NaiveWebServer/NaiveWebServer/Http/RequestType.cs" bodystart="8" bodyend="15"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/pakadam/source/repos/NaiveWebServer/NaiveWebServer/Application/RestApp/IRestApp.cs" line="4" column="1"/>
+  </compounddef>
+</doxygen>
