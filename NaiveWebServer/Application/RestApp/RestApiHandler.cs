@@ -22,22 +22,9 @@ namespace NaiveWebServer
         }
         public void SendResponse(string responseBody, HttpContext httpContext)
         {
-
+            httpContext.response.contentType = "application/json; charset=UTF-8";
             httpContext.response.UpdateBody(responseBody);
-
-            string content = httpContext.response.body;
-
-            System.IO.StreamWriter writer = new System.IO.StreamWriter(httpContext.client.GetStream());
-            writer.Write("HTTP/1.0 200 OK");
-            writer.Write(Environment.NewLine);
-            writer.Write("Content-Type: application/json; charset=UTF-8");
-            writer.Write(Environment.NewLine);
-            writer.Write("Content-Length: " + content.Length);
-            writer.Write(Environment.NewLine);
-            writer.Write(Environment.NewLine);
-            writer.Write(content);
-            writer.Flush();
-            httpContext.client.Close();
+            httpContext.SendResponseToClient();
         }
 
         

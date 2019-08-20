@@ -34,6 +34,23 @@ namespace NaiveWebServer
         }
 
 
+        public void SendResponseToClient()
+        {
+            System.IO.StreamWriter writer = new System.IO.StreamWriter(this.client.GetStream());
+            writer.Write("HTTP/1.0 200 OK");
+            writer.Write(Environment.NewLine);
+            writer.Write("Content-Type: "+this.response.contentType);
+            writer.Write(Environment.NewLine);
+            writer.Write("Content-Length: " + this.response.body.Length);
+            writer.Write(Environment.NewLine);
+            writer.Write(Environment.NewLine);
+            writer.Write(this.response.body);
+            writer.Flush();
+            
+            this.client.Close();
+        }
+
+
 
     }
 }
