@@ -10,14 +10,14 @@ using System.Diagnostics;
 
 namespace NaiveWebServer
 {
-    public class Connection
+    public class Listener
     {
         public ServerConfiguration _serverConfiguration;
         public TcpListener _serverListener;
         public Thread listenerThread;
         public event Action<TcpClient> OnNewClientConnection;
 
-        public Connection(ServerConfiguration serverConfiguration)
+        public Listener(ServerConfiguration serverConfiguration)
         {
             _serverConfiguration = serverConfiguration;
             _serverListener = new TcpListener(IPAddress.Parse(_serverConfiguration.server_domain),

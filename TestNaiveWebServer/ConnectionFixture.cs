@@ -9,11 +9,11 @@ namespace TestNaiveWebServer
 {
     public class ConnectionFixture
     {
-        public Connection connection; 
+        public Listener connection; 
 
         public ConnectionFixture()
         {
-            connection = new Connection(new ServerConfiguration());
+            connection = new Listener(new ServerConfiguration());
         }
         [Fact]
         public void trytostartlistening()

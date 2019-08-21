@@ -8,7 +8,7 @@ namespace NaiveWebServer
     public class WebServer
     {
         public ServerGateway serverGateway;
-        public Connection connection;
+        public Listener connection;
         public ServerConfiguration serverConfiguration;
         public Dispatcher dispatcher;
         public WebAppsHandler webAppsHandler;
@@ -19,7 +19,7 @@ namespace NaiveWebServer
             serverConfiguration = new ServerConfiguration();
             webAppsHandler = new WebAppsHandler();
 
-            connection = new Connection(serverConfiguration);
+            connection = new Listener(serverConfiguration);
             dispatcher = new Dispatcher(webAppsHandler);
             serverGateway = new ServerGateway(connection, dispatcher);
         }

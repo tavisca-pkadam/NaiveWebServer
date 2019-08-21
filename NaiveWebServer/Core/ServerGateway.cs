@@ -13,10 +13,10 @@ namespace NaiveWebServer
 {
     public class ServerGateway
     {
-        public Connection connection;
+        public Listener connection;
         public Dispatcher dispatcher;
 
-        public ServerGateway(Connection connection, Dispatcher dispatcher)
+        public ServerGateway(Listener connection, Dispatcher dispatcher)
         {
             this.connection = connection;
             this.dispatcher = dispatcher;
